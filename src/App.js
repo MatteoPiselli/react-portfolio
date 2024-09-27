@@ -1,12 +1,32 @@
-import './App.css';
-import header from './header.png'
+import React from "react";
+import "./styles/index.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./header";
+import AboutMe from "./aboutMe";
+import DropdownMenu from "./DropdownMenu";
+import Competences from "./competences";
+import ExperiencesDiplômes from "./expDiplomes";
+import Projets from "./projets";
+import Certifications from "./certifications";
+import Veille from "./veille";
 
 function App() {
   return (
-    <div className="App">
-      <img src={header} alt="header" />
-      <h1>Excepteur duis non aliquip incididunt esse. Anim aliquip irure commodo labore irure cillum elit et elit deserunt enim. Veniam velit tempor irure minim. Quis ipsum aliquip irure eiusmod exercitation id quis non laboris esse reprehenderit nisi reprehenderit esse. Eiusmod sunt ut minim reprehenderit nulla exercitation velit cupidatat quis voluptate eiusmod eu anim cupidatat. Nulla amet eu excepteur deserunt.</h1>
-    </div>
+    <Router>
+      <Header />
+      <DropdownMenu />
+
+      {/* Les différentes routes de l'application */}
+      <Routes>
+        <Route path="/competences" element={<Competences />} />
+        <Route path="/expDiplomes" element={<ExperiencesDiplômes />} />
+        <Route path="/projets" element={<Projets />} />
+        <Route path="/certifications" element={<Certifications />} />
+        <Route path="/veille" element={<Veille />} />
+      </Routes>
+
+      <AboutMe />
+    </Router>
   );
 }
 
