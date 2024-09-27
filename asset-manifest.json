@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d07ccf42.css",
-    "main.js": "/react-portfolio/static/js/main.da583a3e.js",
+    "main.css": "/react-portfolio/static/css/main.bcf75dc6.css",
+    "main.js": "/react-portfolio/static/js/main.53c3aee2.js",
     "static/media/header.png": "/react-portfolio/static/media/header.60503a287ce7faff844c.png",
     "static/media/airbnb.webp": "/react-portfolio/static/media/airbnb.0a9f0ac9f443497d099d.webp",
     "static/media/cvven.webp": "/react-portfolio/static/media/cvven.2200e539613efd280de5.webp",
@@ -42,11 +42,11 @@
     "static/media/user.webp": "/react-portfolio/static/media/user.a4c03fc5256063263c1a.webp",
     "static/media/Figma-logo.svg": "/react-portfolio/static/media/Figma-logo.0f4098dccb2a84e24331b00bc6a8dcf8.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.d07ccf42.css.map": "/react-portfolio/static/css/main.d07ccf42.css.map",
-    "main.da583a3e.js.map": "/react-portfolio/static/js/main.da583a3e.js.map"
+    "main.bcf75dc6.css.map": "/react-portfolio/static/css/main.bcf75dc6.css.map",
+    "main.53c3aee2.js.map": "/react-portfolio/static/js/main.53c3aee2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d07ccf42.css",
-    "static/js/main.da583a3e.js"
+    "static/css/main.bcf75dc6.css",
+    "static/js/main.53c3aee2.js"
   ]
 }
