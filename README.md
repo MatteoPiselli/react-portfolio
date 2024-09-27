@@ -2,4 +2,4 @@
 
 ### I'm beginner in React and Tailwind CSS. I'm developing my portfolio for train myself in these frameworks :)
 
-### Click here to see my portfolio ! => https://matteopiselli.github.io
+### Click here to see my portfolio ! => https://matteopiselli.github.io/react-portfolio
