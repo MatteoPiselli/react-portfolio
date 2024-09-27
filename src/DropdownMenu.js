@@ -10,6 +10,8 @@ import Veille from "./assets/images/icons/veille.png";
 import Github from "./assets/images/icons/github.png";
 import Telephone from "./assets/images/icons/telephone.png";
 import Mail from "./assets/images/icons/mail.png";
+import Footer from "./footer";
+import Linkedin from "./assets/images/icons/linkedin.png"
 
 const DropdownMenu = () => {
   const [isOn, setIsOn] = useState(false); // État pour gérer l'affichage du menu
@@ -151,29 +153,46 @@ const DropdownMenu = () => {
                   </a>
               </div>
             </li>
+            <li>
+              <div className="flex space-x-4">
+                <img
+                  src={Linkedin}
+                  alt="linkedin"
+                  className="w-[25px] h-[25px]"
+                />
+                  <a 
+                    href="https://www.linkedin.com/in/matteo-piselli-354a27231/"
+                    className="text-gray-800 hover:text-sky-600"
+                  >
+                    Linkedin
+                  </a>
+              </div>
+            </li>
           </ul>
           {/*left-1/2 place le bord gauche de l'élément au centre du conteneur (50% de la largeur).
           -translate-x-1/2 décale cet élément vers la gauche de la moitié de sa largeur, alignant ainsi son centre sur le centre du conteneur. 
           */}
-          <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2">CONTACT</div>
+          <div className="absolute bottom-48 left-1/2 transform -translate-x-1/2">CONTACT</div>
               <div className="absolute bottom-5 flex flex-col space-y-4">
-                <div className="flex items-center space-x-2">
+                <div className="flex space-x-2">
                   <img
                     src={Telephone}
                     alt="téléphone"
                     className="w-[25px] h-[25px]"
                   />
-                    06 48 35 73 19
+                    <span>06 48 35 73 19</span>
                 </div>
                 
-                <div className="flex items-center space-x-2">
+                <div className="flex space-x-2">
                   <img
                     src={Mail}
                     alt="mail"
                     className="w-[25px] h-[25px]"
                   />
-                    pro.matteo.piselli@gmail.com
+                    <span>pro.matteo.piselli@gmail.com</span>
                 </div>
+
+                <Footer />
 
               </div>
           </div>

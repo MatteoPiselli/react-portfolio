@@ -25,9 +25,10 @@ function App() {
         <Route path="/veille" element={<Veille />} />
       </Routes>
 
-      <AboutMe />
+      <AboutMe />      
     </Router>
   );
+  
 }
 
 export default App;
