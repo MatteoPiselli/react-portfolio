@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Importer Link pour la navigation
 import { motion } from "framer-motion";
+import Copyright from "./copyright";
+import AnimatedArrow from "./AnimatedArrow";
 import Home from "./assets/images/icons/accueil.png";
 import Code from "./assets/images/icons/code.png";
 import Stage from "./assets/images/icons/stage.png";
@@ -10,8 +12,8 @@ import Veille from "./assets/images/icons/veille.png";
 import Github from "./assets/images/icons/github.png";
 import Telephone from "./assets/images/icons/telephone.png";
 import Mail from "./assets/images/icons/mail.png";
-import Footer from "./footer";
 import Linkedin from "./assets/images/icons/linkedin.png"
+import Information from "./assets/images/icons/about-me.png"
 
 const DropdownMenu = () => {
   const [isOn, setIsOn] = useState(false); // État pour gérer l'affichage du menu
@@ -43,6 +45,7 @@ const DropdownMenu = () => {
           transition={spring} // Animation fluide
         />
       </div>
+      <AnimatedArrow />
 
       {/* Menu déroulant qui s'affiche ou non en fonction de l'état `isOn` */}
       {isOn && (
@@ -63,6 +66,21 @@ const DropdownMenu = () => {
                   className="text-gray-800 hover:text-sky-600"
                 >
                   Accueil
+                </Link>
+              </div>
+            </li>
+            <li>
+              <div className="flex space-x-4">
+                <img 
+                  src={Information}
+                  alt="information"
+                  className="w-[25px] h-[25px]"
+                />
+                <Link 
+                  to="/aboutMe"
+                  className="text-gray-800 hover:text-sky-600"
+                >
+                  About me
                 </Link>
               </div>
             </li>
@@ -192,7 +210,7 @@ const DropdownMenu = () => {
                     <span>pro.matteo.piselli@gmail.com</span>
                 </div>
 
-                <Footer />
+                <Copyright />
 
               </div>
           </div>
