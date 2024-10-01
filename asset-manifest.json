@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.492196ea.css",
-    "main.js": "/react-portfolio/static/js/main.b6482c4d.js",
+    "main.css": "/react-portfolio/static/css/main.9dbfce5c.css",
+    "main.js": "/react-portfolio/static/js/main.c84d1d62.js",
     "static/media/header.png": "/react-portfolio/static/media/header.60503a287ce7faff844c.png",
     "static/media/airbnb.webp": "/react-portfolio/static/media/airbnb.0a9f0ac9f443497d099d.webp",
     "static/media/cvven.webp": "/react-portfolio/static/media/cvven.2200e539613efd280de5.webp",
@@ -33,6 +33,7 @@
     "static/media/veille.png": "/react-portfolio/static/media/veille.bd2b04ec5b493a80b5fc.png",
     "static/media/bfm.webp": "/react-portfolio/static/media/bfm.80f97490ae0e5afb4d2f.webp",
     "static/media/mySQL.webp": "/react-portfolio/static/media/mySQL.09a5380067068a3bb0bd.webp",
+    "static/media/formation.png": "/react-portfolio/static/media/formation.6833e274c21ff989e170.png",
     "static/media/coding.png": "/react-portfolio/static/media/coding.b1ad51fcd619dc621d1b.png",
     "static/media/w10.webp": "/react-portfolio/static/media/w10.12afef7bbc5051a2e974.webp",
     "static/media/cisco.webp": "/react-portfolio/static/media/cisco.ef922d3978b1e5e5e6f0.webp",
@@ -41,11 +42,11 @@
     "static/media/user.webp": "/react-portfolio/static/media/user.a4c03fc5256063263c1a.webp",
     "static/media/Figma-logo.svg": "/react-portfolio/static/media/Figma-logo.0f4098dccb2a84e24331b00bc6a8dcf8.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.492196ea.css.map": "/react-portfolio/static/css/main.492196ea.css.map",
-    "main.b6482c4d.js.map": "/react-portfolio/static/js/main.b6482c4d.js.map"
+    "main.9dbfce5c.css.map": "/react-portfolio/static/css/main.9dbfce5c.css.map",
+    "main.c84d1d62.js.map": "/react-portfolio/static/js/main.c84d1d62.js.map"
   },
   "entrypoints": [
-    "static/css/main.492196ea.css",
-    "static/js/main.b6482c4d.js"
+    "static/css/main.9dbfce5c.css",
+    "static/js/main.c84d1d62.js"
   ]
 }
