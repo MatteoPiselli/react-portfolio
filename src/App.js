@@ -18,14 +18,13 @@ function App() {
 
       {/* Les différentes routes de l'application */}
       <Routes>
+        <Route path="/aboutMe" element={<AboutMe />} />
         <Route path="/competences" element={<Competences />} />
         <Route path="/expDiplomes" element={<ExperiencesDiplômes />} />
         <Route path="/projets" element={<Projets />} />
         <Route path="/certifications" element={<Certifications />} />
         <Route path="/veille" element={<Veille />} />
-      </Routes>
-
-      <AboutMe />      
+      </Routes>     
     </Router>
   );
   
