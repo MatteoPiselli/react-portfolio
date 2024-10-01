@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.bcf75dc6.css",
-    "main.js": "/react-portfolio/static/js/main.53c3aee2.js",
+    "main.css": "/react-portfolio/static/css/main.492196ea.css",
+    "main.js": "/react-portfolio/static/js/main.b6482c4d.js",
     "static/media/header.png": "/react-portfolio/static/media/header.60503a287ce7faff844c.png",
     "static/media/airbnb.webp": "/react-portfolio/static/media/airbnb.0a9f0ac9f443497d099d.webp",
     "static/media/cvven.webp": "/react-portfolio/static/media/cvven.2200e539613efd280de5.webp",
@@ -15,7 +15,6 @@
     "static/media/Anssi.webp": "/react-portfolio/static/media/Anssi.a64ef7a4287c16696e09.webp",
     "static/media/bash.png": "/react-portfolio/static/media/bash.203a57c0dcd07c2b5d97.png",
     "static/media/python.webp": "/react-portfolio/static/media/python.40df0a3269ca5878904f.webp",
-    "static/media/contact.png": "/react-portfolio/static/media/contact.e305fea1193c3562229c.png",
     "static/media/pp.png": "/react-portfolio/static/media/pp.85b65f3f3cc38d43b444.png",
     "static/media/640x410_suqian-china-february-15-2023-an-internet-user-checks-chat-gpt-in-suqian-jiangsu-p.webp": "/react-portfolio/static/media/640x410_suqian-china-february-15-2023-an-internet-user-checks-chat-gpt-in-suqian-jiangsu-p.73121db6a075bab163a0.webp",
     "static/media/640x410_open-ai-logo-displayed-on-a-mobile-phone-screen-is-seen-in-this-illustration-photo.webp": "/react-portfolio/static/media/640x410_open-ai-logo-displayed-on-a-mobile-phone-screen-is-seen-in-this-illustration-photo.87a0ca5d5713c5bab483.webp",
@@ -42,11 +41,11 @@
     "static/media/user.webp": "/react-portfolio/static/media/user.a4c03fc5256063263c1a.webp",
     "static/media/Figma-logo.svg": "/react-portfolio/static/media/Figma-logo.0f4098dccb2a84e24331b00bc6a8dcf8.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.bcf75dc6.css.map": "/react-portfolio/static/css/main.bcf75dc6.css.map",
-    "main.53c3aee2.js.map": "/react-portfolio/static/js/main.53c3aee2.js.map"
+    "main.492196ea.css.map": "/react-portfolio/static/css/main.492196ea.css.map",
+    "main.b6482c4d.js.map": "/react-portfolio/static/js/main.b6482c4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcf75dc6.css",
-    "static/js/main.53c3aee2.js"
+    "static/css/main.492196ea.css",
+    "static/js/main.b6482c4d.js"
   ]
 }
