@@ -1,7 +1,6 @@
 import React from "react";
 import bts_sio from "./assets/images/bts_sio.webp";
 import user from "./assets/images/user.webp";
-import contact from "./assets/images/contact.png";
 
 function AboutMe() {
   return (
@@ -34,14 +33,6 @@ function AboutMe() {
         dans le domaine de l’informatique.
       </p>
       <img src={bts_sio} alt="BTS_SIO" width="50%" height="auto" />
-      <p>Contact</p>
-      <p>
-        pro.matteo.piselli@gmail.com
-        <br />
-        06 48 35 73 19
-        <br />
-      </p>
-      <img src={contact} alt="contact" width="25%" height="auto" />
     </div>
   );
 }
