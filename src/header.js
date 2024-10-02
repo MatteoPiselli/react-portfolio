@@ -63,7 +63,6 @@ const ImageWithText = () => {
           {text} {/* Affichage progressif et régressif du texte */}
         </h3>
       </div>
-      <AnimatedArrow />
     </div>
   );
 };
