@@ -59,7 +59,7 @@ const DropdownMenu = () => {
         {/* Menu déroulant qui s'affiche ou non en fonction de l'état `isOn` */}
         {isOn && (
           <motion.div
-            className="absolute top-0 bg-white w-[330px] h-full opacity-75 rounded-md p-4"
+            className="absolute top-0 bg-white w-[17%] h-full opacity-75 rounded-md p-4"
             initial={{ x: "-100%" }} // Le menu commence hors de l'écran à gauche
             animate={{ x: "0%" }} // Le menu glisse vers la position finale
             exit={{ x: "-100%" }} // Le menu glisse hors de l'écran quand il disparaît
