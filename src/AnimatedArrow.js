@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const AnimatedArrow = () => {
   return (
       <motion.div
-        className="absolute top-[580px] left-[280%]" 
+        className="absolute top-[580px] left-[240%]" 
         animate={{ y: [0, 20, 0] }} // Animation de rebond
         transition={{ duration: 1, repeat: Infinity }} // Répéter indéfiniment
       >
