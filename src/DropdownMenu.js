@@ -103,6 +103,7 @@ const DropdownMenu = () => {
                   <Link
                     to="/formation"
                     className="text-gray-800 hover:text-sky-600"
+                    onClick={handleClick}
                   >
                     Formation
                   </Link>
@@ -118,6 +119,7 @@ const DropdownMenu = () => {
                   <Link
                     to="/experiences"
                     className="text-gray-800 hover:text-sky-600"
+                    onClick={handleClick}
                   >
                     Expériences professionnelles
                   </Link>
@@ -133,6 +135,7 @@ const DropdownMenu = () => {
                   <Link
                     to="/projets"
                     className="text-gray-800 hover:text-sky-600"
+                    onClick={handleClick}
                   >
                     Mes projets
                   </Link>
@@ -148,6 +151,7 @@ const DropdownMenu = () => {
                   <Link
                     to="/competences"
                     className="text-gray-800 hover:text-sky-600"
+                    onClick={handleClick}
                   >
                     Compétences Dév. & OS
                   </Link>
@@ -163,6 +167,7 @@ const DropdownMenu = () => {
                   <Link
                     to="/certifications"
                     className="text-gray-800 hover:text-sky-600"
+                    onClick={handleClick}
                   >
                     Certifications
                   </Link>
@@ -178,6 +183,7 @@ const DropdownMenu = () => {
                   <Link
                     to="/veille"
                     className="text-gray-800 hover:text-sky-600"
+                    onClick={handleClick}
                   >
                     Veille technologique
                   </Link>
