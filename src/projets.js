@@ -3,9 +3,22 @@ import airbnb from './assets/images/projets/airbnb.webp'
 import personnage from './assets/images/projets/personnage.webp'
 import cvven from './assets/images/projets/cvven.webp'
 
-function Projets() {
+import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
+
+const Projets = () => {
+  const projetsRef = useRef(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    // Vérifie si l'état contient une ancre vers laquelle scroller
+    if (location.state?.scrollTo && projetsRef.current) {
+      projetsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location]);
+
   return(
-    <div>
+    <div ref={projetsRef}>
       <h1>Présentation de mes projets</h1>
       <img
         src={airbnb}

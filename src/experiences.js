@@ -1,4 +1,6 @@
 import React from 'react';
+import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
 import engie from './assets/images/stages/engie.jpeg';
 import pp from './assets/images/stages/pp.png';
 import bsp from './assets/images/stages/pc.jpeg';
@@ -7,9 +9,19 @@ import inter from './assets/images/travail/intermarcheHyper.png';
 import verd from './assets/images/travail/verd.jpeg';
 import relaisColis from './assets/images/travail/relaisColis.jpeg';
 
-function Experiences() {
+const Experiences = () => {
+  const experiencesRef = useRef(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    // Vérifie si l'état contient une ancre vers laquelle scroller
+    if (location.state?.scrollTo && experiencesRef.current) {
+      experiencesRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location]);
+
   return(
-    <div>
+    <div ref={experiencesRef}>
       <h1>Expériences professionnelles</h1>
         <p>
           <img 

@@ -14,9 +14,23 @@ import macos from "./assets/images/competences/macOS.jpg";
 import figma from "./assets/images/competences/Figma-logo.svg";
 import tailwind from "./assets/images/competences/tailwind.png";
 
-function Competences() {
+import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
+
+const Competences = () => {
+  const competencesRef = useRef(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    // Vérifie si l'état contient une ancre vers laquelle scroller
+    if (location.state?.scrollTo && competencesRef.current) {
+      competencesRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location]);
+
+
   return (
-    <div>
+    <div ref={competencesRef}>
       <h1>Compétences Développement</h1>
       <img src={htmlcssjs} alt="html css js" width="15%" height="auto" />
       Langages Web

@@ -7,9 +7,23 @@ import certifCisco from "./documents/MatteoPISELLI-IntroductionCybe-certificate.
 import certifOpenclassroom from "./documents/certification-openclassroom.pdf";
 import certifPix from "./documents/pix.pdf";
 
-function Certifications() {
+import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
+
+const Certifications = () => {
+  const certificationsRef = useRef(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    // Vérifie si l'état contient une ancre vers laquelle scroller
+    if (location.state?.scrollTo && certificationsRef.current) {
+      certificationsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location]);
+
+
   return (
-    <div>
+    <div ref={certificationsRef}>
       <h1>Certifications</h1>
         <img 
           src={anssi} 

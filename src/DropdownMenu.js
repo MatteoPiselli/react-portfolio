@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Importer Link pour la navigation
+import { Link, useNavigate } from "react-router-dom"; // Importer Link pour la navigation
 import { motion, AnimatePresence } from "framer-motion";
 import Copyright from "./copyright";
+//images
 import Home from "./assets/images/icons/accueil.png";
 import Code from "./assets/images/icons/code.png";
 import Stage from "./assets/images/icons/stage.png";
@@ -14,7 +15,6 @@ import Mail from "./assets/images/icons/mail.png";
 import Linkedin from "./assets/images/icons/linkedin.png";
 import Information from "./assets/images/icons/about-me.png";
 import Formation from "./assets/images/icons/formation.png";
-import AnimatedArrow from "./AnimatedArrow";
 
 const DropdownMenu = () => {
   const [isOn, setIsOn] = useState(false); // État pour gérer l'affichage du menu
@@ -27,13 +27,16 @@ const DropdownMenu = () => {
     damping: 20, // Amortit le mouvement pour le rendre plus doux
   };
 
-  const [showArrow, setShowArrow] = useState(false);
+  const [isAnimating, setIsAnimating] = useState(false);
+  const navigate = useNavigate();
 
-  const handleClick = () => {
-    setShowArrow(true); 
+  const handleNavigation = (e, path, anchor) => {
+    e.preventDefault(); // Empêcher la redirection immédiate
+    setIsAnimating(true); // Déclencher l'animation
+
     setTimeout(() => {
-      setShowArrow(false);
-    }, 2000)
+      navigate(path, { state: { scrollTo: anchor } }); // Transmettre l'ancre en état
+    }, 500); // Délai correspondant à la durée de l'animation
   };
 
   return (
@@ -47,7 +50,7 @@ const DropdownMenu = () => {
       rounded-full p-2 cursor-pointer`}
         onClick={toggleMenu}
       >
-        {/* La poignée du switch, animée avec Framer Motion */}
+        {/* La poignée du menu, animée avec Framer Motion */}
         <motion.div
           className="bg-white w-10 h-10 rounded-full shadow-md" // Taille et style de la poignée
           layout
@@ -85,9 +88,9 @@ const DropdownMenu = () => {
                     className="w-[25px] h-[25px]"
                   />
                   <Link
-                    to="/aboutMe"
+                    href="/aboutMe"
+                    onClick={(e) => handleNavigation(e, "/aboutMe", "#aboutMe")}
                     className="text-gray-800 hover:text-sky-600"
-                    onClick={handleClick}
                   >
                     About me
                   </Link>
@@ -102,8 +105,8 @@ const DropdownMenu = () => {
                   />
                   <Link
                     to="/formation"
+                    onClick={(e) => handleNavigation(e, "/formation", "#formation")}
                     className="text-gray-800 hover:text-sky-600"
-                    onClick={handleClick}
                   >
                     Formation
                   </Link>
@@ -118,8 +121,8 @@ const DropdownMenu = () => {
                   />
                   <Link
                     to="/experiences"
+                    onClick={(e) => handleNavigation(e, "/experiences", "#experiences")}
                     className="text-gray-800 hover:text-sky-600"
-                    onClick={handleClick}
                   >
                     Expériences professionnelles
                   </Link>
@@ -134,8 +137,8 @@ const DropdownMenu = () => {
                   />
                   <Link
                     to="/projets"
+                    onClick={(e) => handleNavigation(e, "/projets", "#projets")}
                     className="text-gray-800 hover:text-sky-600"
-                    onClick={handleClick}
                   >
                     Mes projets
                   </Link>
@@ -150,8 +153,8 @@ const DropdownMenu = () => {
                   />
                   <Link
                     to="/competences"
+                    onClick={(e) => handleNavigation(e, "/competences", "#competences")}
                     className="text-gray-800 hover:text-sky-600"
-                    onClick={handleClick}
                   >
                     Compétences Dév. & OS
                   </Link>
@@ -166,8 +169,8 @@ const DropdownMenu = () => {
                   />
                   <Link
                     to="/certifications"
+                    onClick={(e) => handleNavigation(e, "/certifications", "#certifications")}
                     className="text-gray-800 hover:text-sky-600"
-                    onClick={handleClick}
                   >
                     Certifications
                   </Link>
@@ -182,8 +185,8 @@ const DropdownMenu = () => {
                   />
                   <Link
                     to="/veille"
+                    onClick={(e) => handleNavigation(e, "/veille", "#veille")}
                     className="text-gray-800 hover:text-sky-600"
-                    onClick={handleClick}
                   >
                     Veille technologique
                   </Link>
@@ -219,10 +222,6 @@ const DropdownMenu = () => {
                   </a>
                 </div>
               </li>
-
-              {/* Affichage conditionnel de l'animation */}
-              {showArrow && <AnimatedArrow />}
-
             </ul>
             <div className="absolute bottom-48 left-1/2 transform -translate-x-1/2">
               CONTACT

@@ -3,9 +3,22 @@ import openAI from './assets/images/veille/640x410_open-ai-logo-displayed-on-a-m
 import openAI2 from './assets/images/veille/640x410_suqian-china-february-15-2023-an-internet-user-checks-chat-gpt-in-suqian-jiangsu-p.webp';
 import bfm from './assets/images/veille/bfm.webp';
 
-function Veille() {
+import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
+
+const Veille = () => {
+  const veilleRef = useRef(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    // Vérifie si l'état contient une ancre vers laquelle scroller
+    if (location.state?.scrollTo && veilleRef.current) {
+      veilleRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location]);
+
   return(
-    <div>
+    <div ref={veilleRef}>
       <h1>Veille technologique</h1>
       <p>
         Dans le cadre du BTS SIO, j’ai été amené à mettre en place une veille technologique.

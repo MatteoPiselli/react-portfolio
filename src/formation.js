@@ -1,9 +1,20 @@
-import React from "react";
+import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
 
-function Formation(){
-    return(
-        <div>
-        <h1>Formations / Diplômes</h1>
+const Formation = () => {
+  const formationRef = useRef(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    // Vérifie si l'état contient une ancre vers laquelle scroller
+    if (location.state?.scrollTo && formationRef.current) {
+      formationRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location]);
+
+  return (
+    <div ref={formationRef}>
+      <h1>Formations / Diplômes</h1>
           <p>
             2023 - 2024
           </p>
@@ -42,8 +53,9 @@ function Formation(){
           <p>
             DNB - Collège Georges Brassens (Villeneuve-le-Roi - 94290)
           </p>
-          </div>
-    );
-}
+    </div>
+  );
+};
 
 export default Formation;
+
