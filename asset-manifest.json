@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.bcf75dc6.css",
-    "main.js": "/react-portfolio/static/js/main.cf4135f4.js",
+    "main.css": "/react-portfolio/static/css/main.be4a5831.css",
+    "main.js": "/react-portfolio/static/js/main.f45599f7.js",
     "static/media/header.png": "/react-portfolio/static/media/header.60503a287ce7faff844c.png",
     "static/media/airbnb.webp": "/react-portfolio/static/media/airbnb.0a9f0ac9f443497d099d.webp",
     "static/media/cvven.webp": "/react-portfolio/static/media/cvven.2200e539613efd280de5.webp",
@@ -19,8 +19,10 @@
     "static/media/640x410_suqian-china-february-15-2023-an-internet-user-checks-chat-gpt-in-suqian-jiangsu-p.webp": "/react-portfolio/static/media/640x410_suqian-china-february-15-2023-an-internet-user-checks-chat-gpt-in-suqian-jiangsu-p.73121db6a075bab163a0.webp",
     "static/media/640x410_open-ai-logo-displayed-on-a-mobile-phone-screen-is-seen-in-this-illustration-photo.webp": "/react-portfolio/static/media/640x410_open-ai-logo-displayed-on-a-mobile-phone-screen-is-seen-in-this-illustration-photo.87a0ca5d5713c5bab483.webp",
     "static/media/reactjs.png": "/react-portfolio/static/media/reactjs.fd373eec9017cf21b26d.png",
+    "static/media/doigt-leve.png": "/react-portfolio/static/media/doigt-leve.ea86bf8aba9c079fd954.png",
     "static/media/MatteoPISELLI-IntroductionCybe-certificate.pdf": "/react-portfolio/static/media/MatteoPISELLI-IntroductionCybe-certificate.22bee9edfb21157dac4a.pdf",
     "static/media/ubuntu.webp": "/react-portfolio/static/media/ubuntu.afd02d35b4efa5af5c0f.webp",
+    "static/media/moi.png": "/react-portfolio/static/media/moi.97a9e814d509e1aa0ca3.png",
     "static/media/php.webp": "/react-portfolio/static/media/php.022f79a766c29c00987e.webp",
     "static/media/htmlCssJs.webp": "/react-portfolio/static/media/htmlCssJs.06a0375880a8000fcd1c.webp",
     "static/media/intermarcheHyper.png": "/react-portfolio/static/media/intermarcheHyper.18f02f8ec852b2cbd164.png",
@@ -39,14 +41,13 @@
     "static/media/cisco.webp": "/react-portfolio/static/media/cisco.ef922d3978b1e5e5e6f0.webp",
     "static/media/github.webp": "/react-portfolio/static/media/github.16edffb7a66aff8951a7.webp",
     "static/media/openclassroom.webp": "/react-portfolio/static/media/openclassroom.855a52398c694f4b2f99.webp",
-    "static/media/user.webp": "/react-portfolio/static/media/user.a4c03fc5256063263c1a.webp",
     "static/media/Figma-logo.svg": "/react-portfolio/static/media/Figma-logo.0f4098dccb2a84e24331b00bc6a8dcf8.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.bcf75dc6.css.map": "/react-portfolio/static/css/main.bcf75dc6.css.map",
-    "main.cf4135f4.js.map": "/react-portfolio/static/js/main.cf4135f4.js.map"
+    "main.be4a5831.css.map": "/react-portfolio/static/css/main.be4a5831.css.map",
+    "main.f45599f7.js.map": "/react-portfolio/static/js/main.f45599f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcf75dc6.css",
-    "static/js/main.cf4135f4.js"
+    "static/css/main.be4a5831.css",
+    "static/js/main.f45599f7.js"
   ]
 }
