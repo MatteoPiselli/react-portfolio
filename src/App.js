@@ -3,7 +3,7 @@ import "./styles/index.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./header";
 import AboutMe from "./aboutMe";
-import DropdownMenu from "./DropdownMenu";
+import DropdownMenu from "./components/DropdownMenu";
 import Competences from "./competences";
 import Formation from "./formation";
 import Experiences from "./experiences";

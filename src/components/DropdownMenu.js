@@ -1,20 +1,20 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom"; // Importer Link pour la navigation
 import { motion, AnimatePresence } from "framer-motion";
-import Copyright from "./components/copyright";
+import Copyright from "./copyright";
 //images
-import Home from "./assets/images/icons/accueil.png";
-import Code from "./assets/images/icons/code.png";
-import Stage from "./assets/images/icons/stage.png";
-import Projet from "./assets/images/icons/coding.png";
-import Certification from "./assets/images/icons/certification.png";
-import Veille from "./assets/images/icons/veille.png";
-import Github from "./assets/images/icons/github.png";
-import Telephone from "./assets/images/icons/telephone.png";
-import Mail from "./assets/images/icons/mail.png";
-import Linkedin from "./assets/images/icons/linkedin.png";
-import Information from "./assets/images/icons/about-me.png";
-import Formation from "./assets/images/icons/formation.png";
+import Home from "../assets/images/icons/accueil.png";
+import Code from "../assets/images/icons/code.png";
+import Stage from "../assets/images/icons/stage.png";
+import Projet from "../assets/images/icons/coding.png";
+import Certification from "../assets/images/icons/certification.png";
+import Veille from "../assets/images/icons/veille.png";
+import Github from "../assets/images/icons/github.png";
+import Telephone from "../assets/images/icons/telephone.png";
+import Mail from "../assets/images/icons/mail.png";
+import Linkedin from "../assets/images/icons/linkedin.png";
+import Information from "../assets/images/icons/about-me.png";
+import Formation from "../assets/images/icons/formation.png";
 
 const DropdownMenu = () => {
   const [isOn, setIsOn] = useState(false); // État pour gérer l'affichage du menu

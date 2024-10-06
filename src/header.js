@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import header from "./assets/images/header.png";
-import DropdownMenu from "./DropdownMenu";
+import DropdownMenu from "./components/DropdownMenu";
 import Particles from "react-tsparticles";
 import ParticlesBackground from "react-tsparticles";
 
