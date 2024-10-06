@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom"; // Importer Link pour la navigation
 import { motion, AnimatePresence } from "framer-motion";
-import Copyright from "./copyright";
+import Copyright from "./components/copyright";
 //images
 import Home from "./assets/images/icons/accueil.png";
 import Code from "./assets/images/icons/code.png";
@@ -92,7 +92,7 @@ const DropdownMenu = () => {
                     onClick={(e) => handleNavigation(e, "/aboutMe", "#aboutMe")}
                     className="text-gray-800 hover:text-sky-600"
                   >
-                    About me
+                    À propos
                   </Link>
                 </div>
               </li>

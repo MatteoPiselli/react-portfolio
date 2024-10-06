@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import header from "./assets/images/header.png";
 import DropdownMenu from "./DropdownMenu";
+import Particles from "react-tsparticles";
+import ParticlesBackground from "react-tsparticles";
 
 const ImageWithText = () => {
   const [text, setText] = useState(""); // État pour le texte affiché progressivement
@@ -40,27 +42,33 @@ const ImageWithText = () => {
   return (
     <div>
       {/* Image d'en-tête */}
-      <img
-        src={header}
-        alt="Header"
-        className="w-full h-full overflow-hidden"
-      />
+      <div className="relative w-full h-screen">
+        <img
+          src={header}
+          alt="Header"
+          className="w-full h-full object-cover"
+        />
 
-      {/* Bouton en haut à droite */}
-      <DropdownMenu />
+        <div className="absolute top-0 left-0 w-full h-full"> 
+          <ParticlesBackground />
+        </div>
 
-      {/* Conteneur du texte sur de l'image */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center">
-        {/* Texte principal */}
-        <h1 className="text-white text-5xl font-bold">Matteo PISELLI</h1>
+        {/* Bouton en haut à droite */}
+        <DropdownMenu />
 
-        {/* Espacement entre les deux éléments, si nécessaire */}
-        <div className="h-10" />
+        {/* Conteneur du texte sur de l'image */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center">
+          {/* Texte principal */}
+          <h1 className="text-white text-5xl font-bold">Matteo PISELLI</h1>
 
-        {/* Texte qui s'affiche lettre par lettre */}
-        <h3 className="text-white text-3xl font-bold">
-          {text} {/* Affichage progressif et régressif du texte */}
-        </h3>
+          {/* Espacement entre les deux éléments, si nécessaire */}
+          <div className="h-10" />
+
+          {/* Texte qui s'affiche lettre par lettre */}
+          <h3 className="text-white text-3xl font-bold">
+            {text} {/* Affichage progressif et régressif du texte */}
+          </h3>
+        </div>
       </div>
     </div>
   );

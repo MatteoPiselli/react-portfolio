@@ -16,14 +16,15 @@ const AboutMe = () => {
   }, [location]);
 
   return (
-    <div ref={aboutMeRef}>
-      <h1>About Me</h1>
+    <div 
+      ref={aboutMeRef}
+      className="bg-gray-600"
+    >
       {/* Contenu de la section */}
       <p>
-        Actuellement en deuxième année de BTS SIO, je détiens un baccalauréat
-        professionnel en Systèmes Numérique option Réseaux Informatiques et
-        Systèmes Communicants avec mention BIEN. Je détiens également un Permis
-        B.
+        Actuellement étudiant de 21 ans en développement web, je détiens un <a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers" target="_blank">BTS services informatiques aux organisation option B solutions logicielles et applications métiers (SIO SLAM)</a>
+        <br /> Vous pouvez cliquez sur ce lien de l'Onisep concernant le BTS SIO. <br />
+        Je suis actuellement en auto-formation via des projets et des cours sur internet, visant à me familiariser aux différents langages et frameworks qui pourrait m'aider dans la recherche d'un emploi.
       </p>
       <p>Centres d'intérêts</p>
       <img src={user} alt="user" width="25%" height="auto" />
