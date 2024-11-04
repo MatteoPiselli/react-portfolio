@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.be4a5831.css",
-    "main.js": "/react-portfolio/static/js/main.f45599f7.js",
+    "main.css": "/react-portfolio/static/css/main.c1485237.css",
+    "main.js": "/react-portfolio/static/js/main.feafc84b.js",
     "static/media/header.png": "/react-portfolio/static/media/header.60503a287ce7faff844c.png",
     "static/media/airbnb.webp": "/react-portfolio/static/media/airbnb.0a9f0ac9f443497d099d.webp",
     "static/media/cvven.webp": "/react-portfolio/static/media/cvven.2200e539613efd280de5.webp",
@@ -43,11 +43,11 @@
     "static/media/openclassroom.webp": "/react-portfolio/static/media/openclassroom.855a52398c694f4b2f99.webp",
     "static/media/Figma-logo.svg": "/react-portfolio/static/media/Figma-logo.0f4098dccb2a84e24331b00bc6a8dcf8.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.be4a5831.css.map": "/react-portfolio/static/css/main.be4a5831.css.map",
-    "main.f45599f7.js.map": "/react-portfolio/static/js/main.f45599f7.js.map"
+    "main.c1485237.css.map": "/react-portfolio/static/css/main.c1485237.css.map",
+    "main.feafc84b.js.map": "/react-portfolio/static/js/main.feafc84b.js.map"
   },
   "entrypoints": [
-    "static/css/main.be4a5831.css",
-    "static/js/main.f45599f7.js"
+    "static/css/main.c1485237.css",
+    "static/js/main.feafc84b.js"
   ]
 }
