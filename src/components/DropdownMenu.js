@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom"; // Importer Link pour la navigation
+import { Link, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import Copyright from "./copyright";
 //images
@@ -15,6 +15,7 @@ import Mail from "../assets/images/icons/mail.png";
 import Linkedin from "../assets/images/icons/linkedin.png";
 import Information from "../assets/images/icons/about-me.png";
 import Formation from "../assets/images/icons/formation.png";
+import { type } from "@testing-library/user-event/dist/type";
 
 const DropdownMenu = () => {
   const [isOn, setIsOn] = useState(false); // État pour gérer l'affichage du menu
@@ -28,6 +29,7 @@ const DropdownMenu = () => {
   };
 
   const [isAnimating, setIsAnimating] = useState(false);
+
   const navigate = useNavigate();
 
   const handleNavigation = (e, path, anchor) => {
