@@ -15,7 +15,6 @@ import Mail from "../assets/images/icons/mail.png";
 import Linkedin from "../assets/images/icons/linkedin.png";
 import Information from "../assets/images/icons/about-me.png";
 import Formation from "../assets/images/icons/formation.png";
-import { type } from "@testing-library/user-event/dist/type";
 
 const DropdownMenu = () => {
   const [isOn, setIsOn] = useState(false); // État pour gérer l'affichage du menu
@@ -47,7 +46,7 @@ const DropdownMenu = () => {
       <div
         className={`absolute top-8 right-8 w-20 h-10 flex items-center 
         ${isOn ? "justify-end" : "justify-start"} + ${
-          isOn ? "bg-sky-400" : "bg-gray-200"
+          isOn ? "bg-sky-400" : "bg-gray-600"
         }        
       rounded-full p-2 cursor-pointer`}
         onClick={toggleMenu}

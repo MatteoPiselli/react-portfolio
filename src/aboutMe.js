@@ -19,46 +19,48 @@ const AboutMe = () => {
   return (
     <div ref={aboutMeRef}>
       {/* Contenu de la section */}
-      <div className="flex space-x-2 space-y-2 items-center justify-center">
-        <h1 className="text-3xl">À propos de moi</h1>
-        <img src={user} className="w-12" />
-      </div>
-      <br />
-      <p className="ml-[25%] mr-[25%] text-justify border-4 border-gray-500">
-        Actuellement étudiant de 21 ans en développement web, je détiens un
-        <a
-          href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers"
-          target="_blank"
-          className="font-bold underline italic hover:not-italic inline-block"
-        >
-          BTS services informatiques aux organisation option B solutions
-          logicielles et applications métiers (SIO SLAM)
-        </a>
+      <div className="bg-gray-900">
         <br />
-        <br />
-        <div className="text-center">
-          <img src={doigt} className="w-6 inline-block" />
-          Vous pouvez cliquez sur ce lien de l'Onisep concernant le BTS SIO.
-          <img src={doigt} className="w-6 inline-block" />
-        </div>
-        <br />
-        Je suis actuellement en auto-formation via des projets et des cours sur
-        internet, visant à me familiariser aux différents langages et frameworks
-        qui pourrait m'aider dans la recherche d'un emploi.
-      </p>
-      <div className="relative">
-        <img src={bts_sio} alt="BTS SIO" className="w-full h-auto" />
+        <p className="ml-[25%] mr-[25%] text-justify bg-white bg-opacity-80 p-8">
+          <div className="flex space-y-2 items-center justify-center mb-4">
+            <h1 className="text-3xl">À propos de moi</h1>
+            <img src={user} className="w-12 ml-2" />
+          </div>
+          Actuellement étudiant de 21 ans en développement web, je détiens un
+          <a
+            href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers"
+            target="_blank"
+            className="font-bold underline italic hover:not-italic inline-block"
+          >
+            BTS services informatiques aux organisation option B solutions
+            logicielles et applications métiers (SIO SLAM)
+          </a>
+          <br />
+          <br />
+          <div className="text-center">
+            <img src={doigt} className="w-6 inline-block" />
+            Vous pouvez cliquez sur ce lien de l'Onisep concernant le BTS SIO.
+            <img src={doigt} className="w-6 inline-block" />
+          </div>
+          <br />
+          Je suis actuellement en auto-formation via des projets et des cours
+          sur internet, visant à me familiariser aux différents langages et
+          frameworks qui pourrait m'aider dans la recherche d'un emploi.
+        </p>
+        <div className="relative mt-8 ml-[25%] mr-[25%]">
+          <img src={bts_sio} alt="BTS SIO" className="w-full h-auto" />
 
-        {/* Conteneur pour le texte superposé */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white">
-          <p className="text-center text-2xl font-bold">BTS SIO</p>
-          <p className="mt-2 mx-[10%] text-justify">
-            Le Brevet de Technicien Supérieur Services informatique aux
-            Organisations (SIO) s’adresse à ceux qui souhaitent se former en
-            deux ans aux métiers d’administrateur réseau (SISR) ou de
-            développeur (SLAM) pour intégrer directement le marché du travail ou
-            continuer des études dans le domaine de l’informatique.
-          </p>
+          {/* Conteneur pour le texte superposé */}
+          <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white">
+            <p className="text-center text-3xl font-bold">BTS SIO</p>
+            <p className="mt-2 mx-[10%] font-bold text-justify">
+              Le Brevet de Technicien Supérieur Services informatique aux
+              Organisations (SIO) s’adresse à ceux qui souhaitent se former en
+              deux ans aux métiers d’administrateur réseau (SISR) ou de
+              développeur (SLAM) pour intégrer directement le marché du travail
+              ou continuer des études dans le domaine de l’informatique.
+            </p>
+          </div>
         </div>
       </div>
     </div>

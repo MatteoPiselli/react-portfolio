@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import header from "../assets/images/header.png"
+import header from "../assets/images/header.png";
 import DropdownMenu from "./DropdownMenu";
 import Particles from "react-tsparticles";
 import ParticlesBackground from "react-tsparticles";
@@ -43,13 +43,9 @@ const ImageWithText = () => {
     <div>
       {/* Image d'en-tête */}
       <div className="relative w-full h-screen">
-        <img
-          src={header}
-          alt="Header"
-          className="w-full h-full object-cover"
-        />
+        <img src={header} alt="Header" className="w-full h-full" />
 
-        <div className="absolute top-0 left-0 w-full h-full"> 
+        <div className="absolute top-0 left-0 w-full h-full">
           <ParticlesBackground />
         </div>
 
@@ -68,6 +64,14 @@ const ImageWithText = () => {
           <h3 className="text-white text-3xl font-bold">
             {text} {/* Affichage progressif et régressif du texte */}
           </h3>
+
+          <a
+            href="/cv.pdf"
+            download
+            className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded absolute bottom-[5%] right-4"
+          >
+            Télécharger mon CV
+          </a>
         </div>
       </div>
     </div>
