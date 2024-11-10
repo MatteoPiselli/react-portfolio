@@ -100,16 +100,18 @@ const DropdownMenu = () => {
               <li>
                 <div className="flex space-x-4">
                   <img
-                    src={Formation}
-                    alt="formation"
+                    src={Code}
+                    alt="compétences professionnelles"
                     className="w-[25px] h-[25px]"
                   />
                   <Link
-                    to="/formation"
-                    onClick={(e) => handleNavigation(e, "/formation", "#formation")}
+                    to="/competences"
+                    onClick={(e) =>
+                      handleNavigation(e, "/competences", "#competences")
+                    }
                     className="text-gray-800 hover:text-sky-600"
                   >
-                    Formation
+                    Compétences Dév. & OS
                   </Link>
                 </div>
               </li>
@@ -122,7 +124,9 @@ const DropdownMenu = () => {
                   />
                   <Link
                     to="/experiences"
-                    onClick={(e) => handleNavigation(e, "/experiences", "#experiences")}
+                    onClick={(e) =>
+                      handleNavigation(e, "/experiences", "#experiences")
+                    }
                     className="text-gray-800 hover:text-sky-600"
                   >
                     Expériences professionnelles
@@ -148,19 +152,22 @@ const DropdownMenu = () => {
               <li>
                 <div className="flex space-x-4">
                   <img
-                    src={Code}
-                    alt="compétences professionnelles"
+                    src={Formation}
+                    alt="formation"
                     className="w-[25px] h-[25px]"
                   />
                   <Link
-                    to="/competences"
-                    onClick={(e) => handleNavigation(e, "/competences", "#competences")}
+                    to="/formation"
+                    onClick={(e) =>
+                      handleNavigation(e, "/formation", "#formation")
+                    }
                     className="text-gray-800 hover:text-sky-600"
                   >
-                    Compétences Dév. & OS
+                    Formation
                   </Link>
                 </div>
               </li>
+
               <li>
                 <div className="flex space-x-4">
                   <img
@@ -170,7 +177,9 @@ const DropdownMenu = () => {
                   />
                   <Link
                     to="/certifications"
-                    onClick={(e) => handleNavigation(e, "/certifications", "#certifications")}
+                    onClick={(e) =>
+                      handleNavigation(e, "/certifications", "#certifications")
+                    }
                     className="text-gray-800 hover:text-sky-600"
                   >
                     Certifications
