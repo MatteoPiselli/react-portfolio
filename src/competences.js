@@ -1,21 +1,22 @@
 import React from "react";
-import vscode from "./assets/images/competences/vscode.webp";
-import htmlcssjs from "./assets/images/competences/htmlCssJs.webp";
-import github from "./assets/images/competences/github.webp";
-import java from "./assets/images/competences/java.webp";
-import mySQL from "./assets/images/competences/mySQL.webp";
-import php from "./assets/images/competences/php.webp";
-import python from "./assets/images/competences/python.webp";
-import bash from "./assets/images/competences/bash.png";
-import react from "./assets/images/competences/reactjs.png";
-import windows from "./assets/images/competences/w10.webp";
-import ubuntu from "./assets/images/competences/ubuntu.webp";
-import macos from "./assets/images/competences/macOS.jpg";
-import figma from "./assets/images/competences/Figma-logo.svg";
-import tailwind from "./assets/images/competences/tailwind.png";
-
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
+import vscode from "./assets/images/competences/vscode.svg";
+import html from "./assets/images/competences/html.svg"
+import css from "./assets/images/competences/css.svg"
+import js from "./assets/images/competences/js.svg"
+import github from "./assets/images/competences/github.svg";
+import java from "./assets/images/competences/java.svg";
+import mySQL from "./assets/images/competences/mySQL.svg";
+import php from "./assets/images/competences/php.svg";
+import python from "./assets/images/competences/python.svg";
+import bash from "./assets/images/competences/bash.svg";
+import react from "./assets/images/competences/reactjs.svg";
+import windows from "./assets/images/competences/windows.svg";
+import ubuntu from "./assets/images/competences/ubuntu.svg";
+import macos from "./assets/images/competences/macOS.svg";
+import figma from "./assets/images/competences/Figma-logo.svg";
+import tailwind from "./assets/images/competences/tailwind.svg";
 
 const Competences = () => {
   const competencesRef = useRef(null);
@@ -30,51 +31,32 @@ const Competences = () => {
 
 
   return (
-    <div ref={competencesRef}>
-      <h1>Compétences Développement</h1>
-      <img src={htmlcssjs} alt="html css js" width="15%" height="auto" />
-      Langages Web
-      <br />
-      FRONT-END : HTML5 | CSS3 | JavaScript Initiation
-      <br />
-      <img src={php} alt="php" width="15%" height="auto" />
-      Langage Web
-      <br />
-      BACK-END : Initiation à la programmation avec PHP
-      <br />
-      <img src={react} alt="react" width="15%" height="auto" />
-      React iniation débutant
-      <br />
-      <img src={tailwind} alt="tailwind css" width="15%" height="auto" />
-      Tailwind CSS iniation débutant
-      <br />
-      <img src={java} alt="java" width="15%" height="auto" />
-      Initiation
-      <br />
-      <img src={mySQL} alt="mySQL" width="15%" height="auto" />
-      Initiation
-      <br />
-      <img src={python} alt="python" width="15%" height="auto" />
-      Iniation à python pour l'algorithmie
-      <br />
-      <img src={bash} alt="bash" width="15%" height="auto" />
-      Iniation
-      <br />
-      <img src={github} alt="github" width="15%" height="auto" />
-      Gestion des sources Initiation
-      <br />
-      <img src={figma} alt="figma" width="8%" height="auto" />
-      UX/UI Design : Initiation à Figma pour le prototypage et le design
-      <br />
-      <img src={vscode} alt="vsCode" width="15%" height="auto" />
-      IDE
-      <br />
-      Programmation avec Visual Studio Code & Netbeans pour java
-      <br />
-      <h1>Compétences OS</h1>
-      <img src={windows} alt="windows" width="15%" height="auto" />
-      <img src={ubuntu} alt="ubuntu" width="15%" height="auto" />
-      <img src={macos} alt="macOS" width="15%" height="auto" />
+    <div 
+      ref={competencesRef}
+      className="bg-gray-900 text-white"
+    >
+      <h1>Mes Compétences</h1>
+      <span>Front-End</span>
+      <img src={html} alt="html css js" width="5%" height="auto" />
+      <img src={css} alt="html css js" width="5%" height="auto" />
+      <img src={js} alt="html css js" width="5%" height="auto" />
+      <img src={react} alt="react" width="5%" height="auto" />
+      <img src={tailwind} alt="tailwind css" width="5%" height="auto" />
+      <span>Back-End</span>
+      <img src={php} alt="php" width="5%" height="auto" />
+      <img src={java} alt="java" width="5%" height="auto" />
+      <span>Base de Données</span>
+      <img src={mySQL} alt="mySQL" width="5%" height="auto" />
+      <span>Algorithmie et Scripting</span>
+      <img src={python} alt="python" width="5%" height="auto" />
+      <img src={bash} alt="bash" width="5%" height="auto" />
+      <span>Outils de Développement et Systèmes d'Exploitation</span>
+      <img src={github} alt="github" width="5%" height="auto" />
+      <img src={figma} alt="figma" width="5%" height="auto" />
+      <img src={vscode} alt="vsCode" width="5%" height="auto" />
+      <img src={windows} alt="windows" width="5%" height="auto" />
+      <img src={ubuntu} alt="ubuntu" width="5%" height="auto" />
+      <img src={macos} alt="macOS" width="5%" height="auto" />
     </div>
   );
 }
