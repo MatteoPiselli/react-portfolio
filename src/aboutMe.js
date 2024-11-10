@@ -17,9 +17,11 @@ const AboutMe = () => {
   }, [location]);
 
   return (
-    <div ref={aboutMeRef}>
+    <div 
+      ref={aboutMeRef}
+      className="bg-gray-900"
+    >
       {/* Contenu de la section */}
-      <div className="bg-gray-900">
         <br />
         <p className="ml-[25%] mr-[25%] text-justify bg-white bg-opacity-80 p-8">
           <div className="flex space-y-2 items-center justify-center mb-4">
@@ -39,7 +41,7 @@ const AboutMe = () => {
           <br />
           <div className="text-center">
             <img src={doigt} className="w-6 inline-block" />
-            Vous pouvez cliquez sur ce lien de l'Onisep concernant le BTS SIO.
+            Vous pouvez cliquez sur ce lien de l'Onisep pour en savoir plus sur le BTS SIO.
             <img src={doigt} className="w-6 inline-block" />
           </div>
           <br />
@@ -63,7 +65,6 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
