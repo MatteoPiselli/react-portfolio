@@ -1,10 +1,9 @@
 import React from "react";
-import { useEffect, useRef } from "react";
-import { useLocation } from "react-router-dom";
+
 import vscode from "./assets/images/competences/vscode.svg";
-import html from "./assets/images/competences/html.svg"
-import css from "./assets/images/competences/css.svg"
-import js from "./assets/images/competences/js.svg"
+import html from "./assets/images/competences/html.svg";
+import css from "./assets/images/competences/css.svg";
+import js from "./assets/images/competences/js.svg";
 import github from "./assets/images/competences/github.svg";
 import java from "./assets/images/competences/java.svg";
 import mySQL from "./assets/images/competences/mySQL.svg";
@@ -15,8 +14,11 @@ import react from "./assets/images/competences/reactjs.svg";
 import windows from "./assets/images/competences/windows.svg";
 import ubuntu from "./assets/images/competences/ubuntu.svg";
 import macos from "./assets/images/competences/macOS.svg";
-import figma from "./assets/images/competences/Figma-logo.svg";
+import figma from "./assets/images/competences/figma.png";
 import tailwind from "./assets/images/competences/tailwind.svg";
+
+import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
 
 const Competences = () => {
   const competencesRef = useRef(null);
@@ -29,36 +31,99 @@ const Competences = () => {
     }
   }, [location]);
 
-
   return (
-    <div 
-      ref={competencesRef}
-      className="bg-gray-900 text-white"
-    >
-      <h1>Mes Compétences</h1>
-      <span>Front-End</span>
-      <img src={html} alt="html css js" width="5%" height="auto" />
-      <img src={css} alt="html css js" width="5%" height="auto" />
-      <img src={js} alt="html css js" width="5%" height="auto" />
-      <img src={react} alt="react" width="5%" height="auto" />
-      <img src={tailwind} alt="tailwind css" width="5%" height="auto" />
-      <span>Back-End</span>
-      <img src={php} alt="php" width="5%" height="auto" />
-      <img src={java} alt="java" width="5%" height="auto" />
-      <span>Base de Données</span>
-      <img src={mySQL} alt="mySQL" width="5%" height="auto" />
-      <span>Algorithmie et Scripting</span>
-      <img src={python} alt="python" width="5%" height="auto" />
-      <img src={bash} alt="bash" width="5%" height="auto" />
-      <span>Outils de Développement et Systèmes d'Exploitation</span>
-      <img src={github} alt="github" width="5%" height="auto" />
-      <img src={figma} alt="figma" width="5%" height="auto" />
-      <img src={vscode} alt="vsCode" width="5%" height="auto" />
-      <img src={windows} alt="windows" width="5%" height="auto" />
-      <img src={ubuntu} alt="ubuntu" width="5%" height="auto" />
-      <img src={macos} alt="macOS" width="5%" height="auto" />
+    <div ref={competencesRef} className="bg-gray-900 text-white">
+      <br />
+      <h1 className="text-center text-3xl mb-12">Mes Compétences</h1>
+      {/*<p className="text-center">Front-End</p>*/}
+      <div className="ml-[10%] mr-[10%] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
+        <img
+          src={html}
+          alt="html"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        <img
+          src={css}
+          alt="css"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        <img
+          src={js}
+          alt="js"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        <img
+          src={react}
+          alt="react"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        <img
+          src={tailwind}
+          alt="tailwind css"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        {/*<p className="text-center">Back-End</p>*/}
+        <img
+          src={php}
+          alt="php"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        <img
+          src={java}
+          alt="java"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        {/*<p className="text-center">Base de Données</p>*/}
+        <img
+          src={mySQL}
+          alt="mySQL"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        {/*<p className="text-center">Algorithmie et Scripting</p>*/}
+        <img
+          src={python}
+          alt="python"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        <img
+          src={bash}
+          alt="bash"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        {/*<p className="text-center">Outils de Développement et Systèmes d'Exploitation</p>*/}
+        <img
+          src={github}
+          alt="github"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        <img
+          src={figma}
+          alt="figma"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        <img
+          src={vscode}
+          alt="vsCode"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        <img
+          src={windows}
+          alt="windows"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        <img
+          src={ubuntu}
+          alt="ubuntu"
+          className="bg-gray-800 rounded-lg p-5 h-auto"
+        />
+        <img
+          src={macos}
+          alt="macOS"
+          className="bg-gray-800 rounded-lg p-5 h-auto mb-8"
+        />
+      </div>
     </div>
   );
-}
+};
 
 export default Competences;
