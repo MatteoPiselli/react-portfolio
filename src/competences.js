@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 import vscode from "./assets/images/competences/vscode.svg";
 import html from "./assets/images/competences/html.svg";
@@ -16,6 +17,7 @@ import ubuntu from "./assets/images/competences/ubuntu.svg";
 import macos from "./assets/images/competences/macOS.svg";
 import figma from "./assets/images/competences/figma.png";
 import tailwind from "./assets/images/competences/tailwind.svg";
+import uml from "./assets/images/competences/uml.svg";
 
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
@@ -35,93 +37,130 @@ const Competences = () => {
     <div ref={competencesRef} className="bg-gray-900 text-white">
       <br />
       <h1 className="text-center text-3xl mb-12">Mes Compétences</h1>
-      {/*<p className="text-center">Front-End</p>*/}
+
       <div className="ml-[10%] mr-[10%] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
-        <img
-          src={html}
-          alt="html"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        <img
-          src={css}
-          alt="css"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        <img
-          src={js}
-          alt="js"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        <img
-          src={react}
-          alt="react"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        <img
-          src={tailwind}
-          alt="tailwind css"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        {/*<p className="text-center">Back-End</p>*/}
-        <img
-          src={php}
-          alt="php"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        <img
-          src={java}
-          alt="java"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        {/*<p className="text-center">Base de Données</p>*/}
-        <img
-          src={mySQL}
-          alt="mySQL"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        {/*<p className="text-center">Algorithmie et Scripting</p>*/}
-        <img
-          src={python}
-          alt="python"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        <img
-          src={bash}
-          alt="bash"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        {/*<p className="text-center">Outils de Développement et Systèmes d'Exploitation</p>*/}
-        <img
-          src={github}
-          alt="github"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        <img
-          src={figma}
-          alt="figma"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        <img
-          src={vscode}
-          alt="vsCode"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        <img
-          src={windows}
-          alt="windows"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        <img
-          src={ubuntu}
-          alt="ubuntu"
-          className="bg-gray-800 rounded-lg p-5 h-auto"
-        />
-        <img
-          src={macos}
-          alt="macOS"
-          className="bg-gray-800 rounded-lg p-5 h-auto mb-8"
-        />
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={html} alt="html" className="rounded-lg h-auto" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">Front-End</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={css} alt="css" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">Front-End</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={js} alt="js" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">Front-End</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={react} alt="react" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">Front-End</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={tailwind} alt="tailwind css" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">Front-End</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={php} alt="php" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">Back-End</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={java} alt="java" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">Back-End</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={mySQL} alt="MySQL" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">Base de Donées</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={python} alt="python" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">Algo</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={bash} alt="bash" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">Script</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={uml} alt="uml" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">Modélisation</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={github} alt="github" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">Outils Dév</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={figma} alt="figma" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">UX/UI Design</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={vscode} alt="vscode" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">IDE</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={windows} alt="windows" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">OS</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={ubuntu} alt="ubuntu" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">OS</span>
+          </div>
+        </div>
+
+        <div className="relative bg-gray-800 rounded-lg p-5">
+          <img src={macos} alt="macOS" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">OS</span>
+          </div>
+        </div>
       </div>
+      <br />
+      <br />
+      <br />
     </div>
   );
 };
