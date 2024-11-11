@@ -64,6 +64,7 @@ const AboutMe = () => {
             </p>
           </div>
         </div>
+        <br />
       </div>
   );
 };
