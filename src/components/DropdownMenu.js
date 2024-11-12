@@ -189,22 +189,6 @@ const DropdownMenu = () => {
               <li>
                 <div className="flex space-x-4">
                   <img
-                    src={Veille}
-                    alt="veille technologie"
-                    className="w-[25px] h-[25px]"
-                  />
-                  <Link
-                    to="/veille"
-                    onClick={(e) => handleNavigation(e, "/veille", "#veille")}
-                    className="text-gray-800 hover:text-sky-600"
-                  >
-                    Veille technologique
-                  </Link>
-                </div>
-              </li>
-              <li>
-                <div className="flex space-x-4">
-                  <img
                     src={Github}
                     alt="github"
                     className="w-[25px] h-[25px]"

@@ -9,7 +9,6 @@ import Formation from "./formation";
 import Experiences from "./experiences";
 import Projets from "./projets";
 import Certifications from "./certifications";
-import Veille from "./veille";
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
         <Route path="/experiences" element={<Experiences />} />
         <Route path="/projets" element={<Projets />} />
         <Route path="/certifications" element={<Certifications />} />
-        <Route path="/veille" element={<Veille />} />
       </Routes>     
     </Router>
   );

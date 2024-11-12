@@ -25,7 +25,7 @@ const Projets = () => {
       <br />
       <h1 className="text-3xl text-center mb-12">Mes projets</h1>
 
-      <div className="flex flex-wrap justify-center flex-end">
+      <div className="flex flex-wrap justify-center">
         {/* PORTFOLIO */}
         <div className="relative w-[25%] h-auto mr-8 mb-8">
           <img
