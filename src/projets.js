@@ -28,16 +28,17 @@ const Projets = () => {
       <div className="flex flex-wrap justify-center flex-end">
         {/* PORTFOLIO */}
         <div className="relative w-[25%] h-auto mr-8 mb-8">
-        <img
-          src={portfolio}
-          alt="portfolio"
-          className="w-full h-auto rounded-lg"
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+          <img
+            src={portfolio}
+            alt="portfolio"
+            className="w-full h-auto rounded-lg"
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
               <h2 className="text-lg font-bold mb-2">Portfolio</h2>
               <p className="text-sm">
-                J'ai décidé de développer mon portfolio en utilisant React et Tailwind pour m'entrainer avec ces langages.
+                J'ai décidé de développer mon portfolio en utilisant React et
+                Tailwind pour m'entrainer avec ces langages.
               </p>
             </div>
           </div>
@@ -45,31 +46,36 @@ const Projets = () => {
 
         {/* APIqfap */}
         <div className="relative w-[25%] h-auto mr-8 mb-8">
-        <img
-          src={qfap}
-          alt="api qfap"
-          className="w-full h-auto rounded-lg"
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+          <img src={qfap} alt="api qfap" className="w-full h-auto rounded-lg" />
+          <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
               <h2 className="text-lg font-bold mb-2">Projet API</h2>
               <p className="text-sm">
-              Groupe de 4 étudiants pendant ma 3e année de Bachelor, et notre mission était de construire une API en une semaine basée sur une extraction 2023/2024 des données de l'API opendata.paris.fr. « Que Faire à Paris ?
+                Groupe de 4 étudiants pendant ma 3e année de Bachelor, et notre
+                mission était de construire une API en une semaine basée sur une
+                extraction 2023/2024 des données de l'API opendata.paris.fr. «
+                Que Faire à Paris ?
               </p>
             </div>
           </div>
-        
         </div>
 
         {/* MEMORY ANIME */}
         <div className="relative w-[25%] h-auto mr-8 mb-8">
-          <img src={memoryAnime} alt="memory anime" className="w-full h-auto rounded-lg" />
+          <img
+            src={memoryAnime}
+            alt="memory anime"
+            className="w-full h-auto rounded-lg"
+          />
 
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
               <h2 className="text-lg font-bold mb-2">Memory anime</h2>
               <p className="text-sm">
-                Ce projet à été réalisé durant ma 3e année de Bachelor. C'est un système qui consiste à retrouver les paires de cartes et qui se réinitialise si l'on se trompe. Pour ce projet j'ai utilisé React.
+                Ce projet à été réalisé durant ma 3e année de Bachelor. C'est un
+                système qui consiste à retrouver les paires de cartes et qui se
+                réinitialise si l'on se trompe. Pour ce projet j'ai utilisé
+                React.
               </p>
             </div>
           </div>
