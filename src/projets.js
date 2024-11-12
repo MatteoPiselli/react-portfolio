@@ -20,6 +20,9 @@ const Projets = () => {
   return(
     <div ref={projetsRef}>
       <h1>Présentation de mes projets</h1>
+
+      {/*Portfolio; APIqfap; Memory Anime; Partenaires Particuliers; Projet Airbnb; */}
+
       <img
         src={airbnb}
         alt="airbnb"
