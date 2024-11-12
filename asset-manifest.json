@@ -1,25 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2bd07ad8.css",
-    "main.js": "/react-portfolio/static/js/main.e1f396cb.js",
+    "main.css": "/react-portfolio/static/css/main.e613422f.css",
+    "main.js": "/react-portfolio/static/js/main.157cf87c.js",
     "static/media/header.png": "/react-portfolio/static/media/header.60503a287ce7faff844c.png",
     "static/media/airbnb.webp": "/react-portfolio/static/media/airbnb.0a9f0ac9f443497d099d.webp",
     "static/media/cvven.webp": "/react-portfolio/static/media/cvven.2200e539613efd280de5.webp",
     "static/media/bts_sio.webp": "/react-portfolio/static/media/bts_sio.cd28ac945256082d38b2.webp",
     "static/media/personnage.webp": "/react-portfolio/static/media/personnage.6b4417706487fdb8c50f.webp",
-    "static/media/verd.jpeg": "/react-portfolio/static/media/verd.6b86494087ad89947920.jpeg",
     "static/media/certification-openclassroom.pdf": "/react-portfolio/static/media/certification-openclassroom.e65a1da624f865fc759e.pdf",
-    "static/media/telephone.jpeg": "/react-portfolio/static/media/telephone.88bab9f8b7ce7577fecc.jpeg",
     "static/media/pix.pdf": "/react-portfolio/static/media/pix.02a9c8105312c2ca1490.pdf",
-    "static/media/engie.jpeg": "/react-portfolio/static/media/engie.d92bd4d3c06d26b7cf90.jpeg",
     "static/media/Anssi.webp": "/react-portfolio/static/media/Anssi.a64ef7a4287c16696e09.webp",
-    "static/media/pp.png": "/react-portfolio/static/media/pp.85b65f3f3cc38d43b444.png",
     "static/media/640x410_suqian-china-february-15-2023-an-internet-user-checks-chat-gpt-in-suqian-jiangsu-p.webp": "/react-portfolio/static/media/640x410_suqian-china-february-15-2023-an-internet-user-checks-chat-gpt-in-suqian-jiangsu-p.73121db6a075bab163a0.webp",
     "static/media/640x410_open-ai-logo-displayed-on-a-mobile-phone-screen-is-seen-in-this-illustration-photo.webp": "/react-portfolio/static/media/640x410_open-ai-logo-displayed-on-a-mobile-phone-screen-is-seen-in-this-illustration-photo.87a0ca5d5713c5bab483.webp",
     "static/media/doigt-leve.png": "/react-portfolio/static/media/doigt-leve.ea86bf8aba9c079fd954.png",
     "static/media/MatteoPISELLI-IntroductionCybe-certificate.pdf": "/react-portfolio/static/media/MatteoPISELLI-IntroductionCybe-certificate.22bee9edfb21157dac4a.pdf",
     "static/media/moi.png": "/react-portfolio/static/media/moi.97a9e814d509e1aa0ca3.png",
-    "static/media/intermarcheHyper.png": "/react-portfolio/static/media/intermarcheHyper.18f02f8ec852b2cbd164.png",
     "static/media/telephone.png": "/react-portfolio/static/media/telephone.2fc490155488266426d2.png",
     "static/media/github.png": "/react-portfolio/static/media/github.f11021803f68852df283.png",
     "static/media/mail.png": "/react-portfolio/static/media/mail.a8df4638190bd6b7b9b5.png",
@@ -39,6 +34,7 @@
     "static/media/github.svg": "/react-portfolio/static/media/github.3c903c66b2c5334c8c0b80567c4ea422.svg",
     "static/media/bash.svg": "/react-portfolio/static/media/bash.e22f475189b9c606a3cbac0a243a840d.svg",
     "static/media/java.svg": "/react-portfolio/static/media/java.a751bad6c81431ab4dd6fa6632a65540.svg",
+    "static/media/uml.svg": "/react-portfolio/static/media/uml.3f4c89d1e680b4a86ae9d235b8cebec9.svg",
     "static/media/ubuntu.svg": "/react-portfolio/static/media/ubuntu.19598217529d2acd420a9cd6fe4c8b22.svg",
     "static/media/js.svg": "/react-portfolio/static/media/js.4c1b5332c1b1057928f6f06cf972c91c.svg",
     "static/media/css.svg": "/react-portfolio/static/media/css.39769a8bd378bf410d6b381a8d88fa35.svg",
@@ -47,11 +43,11 @@
     "static/media/html.svg": "/react-portfolio/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
     "index.html": "/react-portfolio/index.html",
     "static/media/windows.svg": "/react-portfolio/static/media/windows.5cc84ba7ba7b6b804fd1cd25a98a1072.svg",
-    "main.2bd07ad8.css.map": "/react-portfolio/static/css/main.2bd07ad8.css.map",
-    "main.e1f396cb.js.map": "/react-portfolio/static/js/main.e1f396cb.js.map"
+    "main.e613422f.css.map": "/react-portfolio/static/css/main.e613422f.css.map",
+    "main.157cf87c.js.map": "/react-portfolio/static/js/main.157cf87c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bd07ad8.css",
-    "static/js/main.e1f396cb.js"
+    "static/css/main.e613422f.css",
+    "static/js/main.157cf87c.js"
   ]
 }
