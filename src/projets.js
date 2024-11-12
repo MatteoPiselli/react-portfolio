@@ -1,6 +1,9 @@
 import React from "react";
-import airbnb from "./assets/images/projets/airbnb.webp";
+import airbnb from "./assets/images/projets/airbnb.png";
 import pp from "./assets/images/projets/partenaires-particuliers.png"
+import memoryAnime from "./assets/images/projets/memory-anime.png"
+import qfap from "./assets/images/projets/qfap.png"
+import portfolio from "./assets/images/projets/portfolio.png"
 
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
@@ -27,17 +30,19 @@ const Projets = () => {
       <div className="flex flex-wrap p-5">
 
         {/*PORTFOLIO */}
+        <img src={portfolio} alt="portfolio" className="w-[25%] h-auto rounded-lg m-4" />
 
         {/*APIqfap */}
+        <img src={qfap} alt="api qfap" className="w-[25%] h-auto rounded-lg m-4" /> 
 
         {/*MEMORY ANIME*/}
-        
+        <img src={memoryAnime} alt="memory anime" className="w-[25%] h-auto rounded-lg m-4" />
 
         {/*PARTENAIRES PARTICULIERS */}
-        <img src={pp} alt="partenaires-particuliers" className="w-[25%] h-auto rounded-lg mr-8" />
+        <img src={pp} alt="partenaires-particuliers" className="w-[25%] h-auto rounded-lg m-4" />
 
         {/*PROJET AIRBNB */}
-        <img src={airbnb} alt="airbnb" className="w-[25%] h-auto rounded-lg" />
+        <img src={airbnb} alt="airbnb" className="w-[25%] h-auto rounded-lg m-4" />
         {/*<p>Projet Airbnb</p>
         <p>
           Ce projet à été réalisé en solo durant ma première année de BTS. Il
