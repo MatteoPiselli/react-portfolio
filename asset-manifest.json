@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.e613422f.css",
-    "main.js": "/react-portfolio/static/js/main.157cf87c.js",
+    "main.css": "/react-portfolio/static/css/main.23ee76a6.css",
+    "main.js": "/react-portfolio/static/js/main.fcc7bc37.js",
+    "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.2630eab0a79dd3cb0e62.png",
+    "static/media/airbnb.png": "/react-portfolio/static/media/airbnb.c928367d8036894f6f02.png",
+    "static/media/memory-anime.png": "/react-portfolio/static/media/memory-anime.cd2a05cb8e9d8f62f54b.png",
+    "static/media/partenaires-particuliers.png": "/react-portfolio/static/media/partenaires-particuliers.9ebdbe98a2ec80c0126a.png",
     "static/media/header.png": "/react-portfolio/static/media/header.60503a287ce7faff844c.png",
-    "static/media/airbnb.webp": "/react-portfolio/static/media/airbnb.0a9f0ac9f443497d099d.webp",
-    "static/media/cvven.webp": "/react-portfolio/static/media/cvven.2200e539613efd280de5.webp",
     "static/media/bts_sio.webp": "/react-portfolio/static/media/bts_sio.cd28ac945256082d38b2.webp",
-    "static/media/personnage.webp": "/react-portfolio/static/media/personnage.6b4417706487fdb8c50f.webp",
+    "static/media/qfap.png": "/react-portfolio/static/media/qfap.d90b95c96cc2d34fd1a3.png",
     "static/media/certification-openclassroom.pdf": "/react-portfolio/static/media/certification-openclassroom.e65a1da624f865fc759e.pdf",
     "static/media/pix.pdf": "/react-portfolio/static/media/pix.02a9c8105312c2ca1490.pdf",
     "static/media/Anssi.webp": "/react-portfolio/static/media/Anssi.a64ef7a4287c16696e09.webp",
@@ -43,11 +45,11 @@
     "static/media/html.svg": "/react-portfolio/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
     "index.html": "/react-portfolio/index.html",
     "static/media/windows.svg": "/react-portfolio/static/media/windows.5cc84ba7ba7b6b804fd1cd25a98a1072.svg",
-    "main.e613422f.css.map": "/react-portfolio/static/css/main.e613422f.css.map",
-    "main.157cf87c.js.map": "/react-portfolio/static/js/main.157cf87c.js.map"
+    "main.23ee76a6.css.map": "/react-portfolio/static/css/main.23ee76a6.css.map",
+    "main.fcc7bc37.js.map": "/react-portfolio/static/js/main.fcc7bc37.js.map"
   },
   "entrypoints": [
-    "static/css/main.e613422f.css",
-    "static/js/main.157cf87c.js"
+    "static/css/main.23ee76a6.css",
+    "static/js/main.fcc7bc37.js"
   ]
 }
