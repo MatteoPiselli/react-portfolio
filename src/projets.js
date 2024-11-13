@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 import airbnb from "./assets/images/projets/airbnb.png";
 import pp from "./assets/images/projets/partenaires-particuliers.png";
 import memoryAnime from "./assets/images/projets/memory-anime.png";
@@ -129,6 +130,7 @@ const Projets = () => {
       <br />
       <br />
       <br />
+      <ScrollToTopButton />
     </div>
   );
 };

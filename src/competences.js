@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 import vscode from "./assets/images/competences/vscode.svg";
 import html from "./assets/images/competences/html.svg";
@@ -216,6 +217,7 @@ const Competences = () => {
       <br />
       <br />
       <br />
+      <ScrollToTopButton />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 const Experiences = () => {
   const experiencesRef = useRef(null);
@@ -162,6 +163,7 @@ const Experiences = () => {
       <br />
       <br />
       <br />
+      <ScrollToTopButton />
     </div>
   );
 };

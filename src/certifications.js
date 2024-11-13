@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 import anssi from "./assets/images/certifications/Anssi.webp";
 import cisco from "./assets/images/certifications/cisco.webp";
 import openclassroom from "./assets/images/certifications/openclassroom.webp";
@@ -93,6 +94,7 @@ const Certifications = () => {
       <br />
       <br />
       <br />
+      <ScrollToTopButton />
     </div>
   );
 };

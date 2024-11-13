@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 const Formation = () => {
   const formationRef = useRef(null);
@@ -78,6 +79,7 @@ const Formation = () => {
       <br />
       <br />
       <br />
+      <ScrollToTopButton />
     </div>
   );
 };

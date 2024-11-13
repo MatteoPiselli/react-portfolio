@@ -68,7 +68,7 @@ const ImageWithText = () => {
           <a
             href="/cv.pdf"
             download
-            className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded absolute bottom-[5%] right-4"
+            className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded-xl absolute bottom-[5%] right-4"
           >
             Télécharger mon CV
           </a>
