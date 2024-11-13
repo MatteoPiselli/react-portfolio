@@ -8,7 +8,6 @@ import Code from "../assets/images/icons/code.png";
 import Stage from "../assets/images/icons/stage.png";
 import Projet from "../assets/images/icons/coding.png";
 import Certification from "../assets/images/icons/certification.png";
-import Veille from "../assets/images/icons/veille.png";
 import Github from "../assets/images/icons/github.png";
 import Telephone from "../assets/images/icons/telephone.png";
 import Mail from "../assets/images/icons/mail.png";
@@ -232,7 +231,7 @@ const DropdownMenu = () => {
 
               <div className="flex space-x-2">
                 <img src={Mail} alt="mail" className="w-[25px] h-[25px]" />
-                <span>pro.matteo.piselli@gmail.com</span>
+                <a href="mailto:pro.matteo.piselli@gmail.com" className="hover:text-sky-600">pro.matteo.piselli@gmail.com</a>
               </div>
 
               <Copyright />
