@@ -25,11 +25,10 @@ const Certifications = () => {
     <div ref={certificationsRef} className="bg-gray-900 text-white">
       <br />
       <br />
-      <h1 className="text-3xl text-center">Certifications</h1>
+      <h1 className="text-3xl text-center mb-12">Certifications</h1>
 
-      <div className="flex flex-wrap justify-center">
-
-        <div className="relative w-[15%] h-auto">
+      <div className="flex flex-wrap items-center justify-center">
+        <div className="relative w-[17%] h-auto mr-12">
           <img src={anssi} alt="anssi" className="w-full h-auto rounded-lg" />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
@@ -43,46 +42,57 @@ const Certifications = () => {
           </div>
         </div>
 
-        <div className="relative w-[15%] h-auto">
+        <div className="relative w-[20%] h-auto mr-12">
           <img src={cisco} alt="cisco" className="w-full h-auto rounded-lg" />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
               <h2 className="text-lg font-bold mb-2">
-                <a href={certifCisco}>
-                Cisco
-                </a>
+                <a href={certifCisco} className="italic underline">Cisco</a>
               </h2>
               <p className="text-sm">
-              Certification Cisco Networking Academy "Introduction to Cybersecurity" effectuer en
-              cours de formation du BTS SIO.
+                Certification Cisco Networking Academy "Introduction to
+                Cybersecurity" effectuer en cours de formation du BTS SIO.
               </p>
             </div>
           </div>
         </div>
 
-       
+        <div className="relative w-[20%] h-auto mr-12">
+          <img
+            src={openclassroom}
+            alt="openclassroom"
+            className="w-full h-auto rounded-lg"
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+            <div className="p-4 text-center">
+              <h2 className="text-lg font-bold mb-2">
+                <a href={certifOpenclassroom} className="italic underline">Openclassrooms</a>
+              </h2>
+              <p className="text-sm">
+                Certifications Openclassrooms en autodidacte sur les différents métiers de développeur; sur la cybersécurité.
+              </p>
+            </div>
+          </div>
+        </div>
 
-        <img
-          src={openclassroom}
-          alt="openclassroom"
-          width="15%"
-          height="auto"
-        />
-        <p>
-          <a href={certifOpenclassroom}>Openclassrooms</a>
-        </p>
-        <p>
-          Certifications Openclassrooms effectuées en cours de formation du BTS
-          SIO. Je me suis formé sur les différents métiers de développeur; sur
-          la cybersécurité.
-        </p>
-
-        <img src={pix} alt="pix" width="15%" height="auto" />
-        <p>
-          <a href={certifPix}>PIX</a>
-        </p>
-        <p>Certification PIX effectuer en cours de formation du BTS SIO</p>
+        <div className="relative w-[20%] h-auto mr-12">
+          <img src={pix} alt="pix" className="w-full h-auto rounded-lg" />
+          <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+            <div className="p-4 text-center">
+              <h2 className="text-lg font-bold mb-2">
+                <a href={certifPix} className="italic underline">PIX</a>
+              </h2>
+              <p className="text-sm">
+                Certification PIX obligatoire effectuer en cours de formation du
+                BTS SIO.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+      <br />
+      <br />
+      <br />
     </div>
   );
 };
