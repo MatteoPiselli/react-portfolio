@@ -23,6 +23,7 @@ const AboutMe = () => {
     >
       {/* Contenu de la section */}
         <br />
+        <br />
         <p className="ml-[25%] mr-[25%] text-justify bg-white bg-opacity-80 p-8">
           <div className="flex space-y-2 items-center justify-center mb-4">
             <h1 className="text-3xl">À propos de moi</h1>
@@ -64,6 +65,8 @@ const AboutMe = () => {
             </p>
           </div>
         </div>
+        <br />
+        <br />
         <br />
       </div>
   );
