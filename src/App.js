@@ -9,9 +9,11 @@ import Formation from "./formation";
 import Experiences from "./experiences";
 import Projets from "./projets";
 import Certifications from "./certifications";
+import Footer from "./components/Footer";
 
 function App() {
   return (
+    <div>
     <Router>
       <Header />
       <DropdownMenu />
@@ -26,6 +28,9 @@ function App() {
         <Route path="/certifications" element={<Certifications />} />
       </Routes>     
     </Router>
+
+    <Footer />
+  </div>
   );
   
 }
