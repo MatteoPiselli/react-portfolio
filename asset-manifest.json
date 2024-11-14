@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.4664dd26.css",
-    "main.js": "/react-portfolio/static/js/main.cf7ac858.js",
-    "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.2630eab0a79dd3cb0e62.png",
+    "main.js": "/react-portfolio/static/js/main.b242615c.js",
+    "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.033d672fb548284eb98e.png",
     "static/media/airbnb.png": "/react-portfolio/static/media/airbnb.c928367d8036894f6f02.png",
     "static/media/memory-anime.png": "/react-portfolio/static/media/memory-anime.b5aaa4722f2c642d882c.png",
     "static/media/partenaires-particuliers.png": "/react-portfolio/static/media/partenaires-particuliers.fd2f068f6cabf3c00cb9.png",
@@ -49,10 +49,10 @@
     "index.html": "/react-portfolio/index.html",
     "static/media/windows.svg": "/react-portfolio/static/media/windows.5cc84ba7ba7b6b804fd1cd25a98a1072.svg",
     "main.4664dd26.css.map": "/react-portfolio/static/css/main.4664dd26.css.map",
-    "main.cf7ac858.js.map": "/react-portfolio/static/js/main.cf7ac858.js.map"
+    "main.b242615c.js.map": "/react-portfolio/static/js/main.b242615c.js.map"
   },
   "entrypoints": [
     "static/css/main.4664dd26.css",
-    "static/js/main.cf7ac858.js"
+    "static/js/main.b242615c.js"
   ]
 }
