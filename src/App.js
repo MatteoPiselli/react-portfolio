@@ -17,8 +17,7 @@ function App() {
     <Router>
       <Header />
       <DropdownMenu />
-
-      {/* Les différentes routes de l'application */}
+      
       <Routes>
         <Route path="/aboutMe" element={<AboutMe />} />
         <Route path="/competences" element={<Competences />} />
