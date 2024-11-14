@@ -18,9 +18,7 @@ const Experiences = () => {
 
   return (
     <div ref={experiencesRef} className="bg-gray-900 text-white">
-      <br />
-      <br />
-      <h1 className="text-center text-3xl mb-12">
+      <h1 className="text-center text-3xl p-8 mb-12">
         Expériences professionnelles
       </h1>
 

@@ -24,9 +24,7 @@ const Projets = () => {
 
   return (
     <div ref={projetsRef} className="bg-gray-900 text-white">
-      <br />
-      <br />
-      <h1 className="text-3xl text-center mb-12">Mes projets</h1>
+      <h1 className="text-3xl text-center p-8 mb-12">Mes projets</h1>
 
       <div className="flex flex-wrap justify-center">
         {/* PORTFOLIO */}
@@ -54,7 +52,7 @@ const Projets = () => {
             <div className="p-4 text-center">
               <h2 className="text-lg font-bold mb-2">Projet API</h2>
               <p className="text-sm">
-                Groupe de 4 étudiants pendant ma 3e année de Bachelor, et notre
+                Groupe de 4 étudiants pendant ma 3e année de Bachelor, notre
                 mission était de construire une API en une semaine basée sur une
                 extraction 2023/2024 des données de l'API opendata.paris.fr. «
                 Que Faire à Paris ?
@@ -73,7 +71,7 @@ const Projets = () => {
 
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="text-lg font-bold mb-2">Memory anime</h2>
+              <h2 className="text-lg font-bold mb-2">Matchs the pairs</h2>
               <p className="text-sm">
                 Ce projet à été réalisé durant ma 3e année de Bachelor. C'est un
                 système qui consiste à retrouver les paires de cartes et qui se

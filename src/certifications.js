@@ -26,9 +26,7 @@ const Certifications = () => {
 
   return (
     <div ref={certificationsRef} className="bg-gray-900 text-white">
-      <br />
-      <br />
-      <h1 className="text-3xl text-center mb-12">Certifications</h1>
+      <h1 className="text-3xl text-center p-8 mb-12">Certifications</h1>
 
       <div className="flex flex-wrap items-center justify-center">
         <div className="relative w-[17%] h-auto mr-12">
