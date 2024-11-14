@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.75e11099.css",
-    "main.js": "/react-portfolio/static/js/main.149ce703.js",
+    "main.css": "/react-portfolio/static/css/main.4664dd26.css",
+    "main.js": "/react-portfolio/static/js/main.cf7ac858.js",
     "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.2630eab0a79dd3cb0e62.png",
     "static/media/airbnb.png": "/react-portfolio/static/media/airbnb.c928367d8036894f6f02.png",
     "static/media/memory-anime.png": "/react-portfolio/static/media/memory-anime.b5aaa4722f2c642d882c.png",
@@ -12,7 +12,6 @@
     "static/media/fa-brands-400.ttf": "/react-portfolio/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/qfap.png": "/react-portfolio/static/media/qfap.d90b95c96cc2d34fd1a3.png",
     "static/media/fa-solid-900.woff2": "/react-portfolio/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
-    "static/media/openclassroom.pdf": "/react-portfolio/static/media/openclassroom.e65a1da624f865fc759e.pdf",
     "static/media/fa-brands-400.woff2": "/react-portfolio/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/pix.pdf": "/react-portfolio/static/media/pix.02a9c8105312c2ca1490.pdf",
     "static/media/fa-regular-400.ttf": "/react-portfolio/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
@@ -49,11 +48,11 @@
     "static/media/html.svg": "/react-portfolio/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
     "index.html": "/react-portfolio/index.html",
     "static/media/windows.svg": "/react-portfolio/static/media/windows.5cc84ba7ba7b6b804fd1cd25a98a1072.svg",
-    "main.75e11099.css.map": "/react-portfolio/static/css/main.75e11099.css.map",
-    "main.149ce703.js.map": "/react-portfolio/static/js/main.149ce703.js.map"
+    "main.4664dd26.css.map": "/react-portfolio/static/css/main.4664dd26.css.map",
+    "main.cf7ac858.js.map": "/react-portfolio/static/js/main.cf7ac858.js.map"
   },
   "entrypoints": [
-    "static/css/main.75e11099.css",
-    "static/js/main.149ce703.js"
+    "static/css/main.4664dd26.css",
+    "static/js/main.cf7ac858.js"
   ]
 }
