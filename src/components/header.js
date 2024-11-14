@@ -44,25 +44,16 @@ const ImageWithText = () => {
       <div className="relative w-full h-screen">
         <img src={header} alt="Header" className="w-full h-full" />
 
-        <div className="absolute top-0 left-0 w-full h-full">
-          <ParticlesBackground />
-        </div>
+        <ParticlesBackground />
 
-        {/* Bouton en haut à droite */}
         <DropdownMenu />
 
-        {/* Conteneur du texte sur de l'image */}
         <div className="absolute inset-0 flex flex-col items-center justify-center">
-          {/* Texte principal */}
           <h1 className="text-white text-5xl font-bold">Matteo PISELLI</h1>
 
-          {/* Espacement entre les deux éléments, si nécessaire */}
           <div className="h-10" />
 
-          {/* Texte qui s'affiche lettre par lettre */}
-          <h3 className="text-white text-3xl font-bold">
-            {text} {/* Affichage progressif et régressif du texte */}
-          </h3>
+          <h3 className="text-white text-3xl font-bold">{text}</h3>
 
           <a
             href="/react-portfolio/cv.pdf"
