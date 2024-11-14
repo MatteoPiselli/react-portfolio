@@ -24,11 +24,11 @@ const Certifications = () => {
   }, [location]);
 
   return (
-    <div ref={certificationsRef} className="bg-gray-900 text-white">
+    <div ref={certificationsRef} className="relative bg-gray-900 text-white">
       <h1 className="text-3xl text-center p-8 mb-12">Certifications</h1>
 
       <div className="ml-[10%] mr-[10%] flex items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
-        <div className="relative">
+        <div className="relative transform transition-transform duration-300 hover:scale-105">
           <img src={anssi} alt="anssi" className="w-full h-auto rounded-lg" />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
@@ -42,7 +42,7 @@ const Certifications = () => {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative transform transition-transform duration-300 hover:scale-105">
           <img src={cisco} alt="cisco" className="w-full h-auto rounded-lg" />
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
@@ -59,7 +59,7 @@ const Certifications = () => {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative transform transition-transform duration-300 hover:scale-105">
           <img src={pix} alt="pix" className="w-full h-auto rounded-lg" />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
@@ -76,7 +76,7 @@ const Certifications = () => {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative transform transition-transform duration-300 hover:scale-105">
           <img
             src={openclassroom}
             alt="openclassroom"
@@ -91,7 +91,7 @@ const Certifications = () => {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative transform transition-transform duration-300 hover:scale-105">
           <img
             src={openclassroom}
             alt="openclassroom"
@@ -106,7 +106,7 @@ const Certifications = () => {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative transform transition-transform duration-300 hover:scale-105">
           <img
             src={openclassroom}
             alt="openclassroom"
@@ -121,7 +121,7 @@ const Certifications = () => {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative transform transition-transform duration-300 hover:scale-105">
           <img
             src={openclassroom}
             alt="openclassroom"
@@ -136,7 +136,7 @@ const Certifications = () => {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative transform transition-transform duration-300 hover:scale-105">
           <img
             src={openclassroom}
             alt="openclassroom"
@@ -151,7 +151,7 @@ const Certifications = () => {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative transform transition-transform duration-300 hover:scale-105">
           <img
             src={openclassroom}
             alt="openclassroom"
@@ -166,7 +166,7 @@ const Certifications = () => {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative transform transition-transform duration-300 hover:scale-105">
           <img
             src={openclassroom}
             alt="openclassroom"

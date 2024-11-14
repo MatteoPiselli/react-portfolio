@@ -17,7 +17,7 @@ const Experiences = () => {
   }, [location]);
 
   return (
-    <div ref={experiencesRef} className="bg-gray-900 text-white">
+    <div ref={experiencesRef} className="relative bg-gray-900 text-white">
       <h1 className="text-center text-3xl p-8 mb-12">
         Expériences professionnelles
       </h1>

@@ -37,7 +37,7 @@ const Competences = () => {
   }, [location]);
 
   return (
-    <div ref={competencesRef} className="bg-gray-900 text-white">
+    <div ref={competencesRef} className="relative bg-gray-900 text-white">
       <h1 className="text-center text-3xl p-8 mb-12">Mes Compétences</h1>
 
       <div className="ml-[10%] mr-[10%] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">

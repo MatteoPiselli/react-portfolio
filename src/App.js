@@ -14,24 +14,23 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-    <Router>
-      <Header />
-      <DropdownMenu />
-      
-      <Routes>
-        <Route path="/aboutMe" element={<AboutMe />} />
-        <Route path="/competences" element={<Competences />} />
-        <Route path="/formation" element={<Formation />} />
-        <Route path="/experiences" element={<Experiences />} />
-        <Route path="/projets" element={<Projets />} />
-        <Route path="/certifications" element={<Certifications />} />
-      </Routes>     
-    </Router>
+      <Router>
+        <Header />
+        <DropdownMenu />
 
-    <Footer />
-  </div>
+        <Routes>
+          <Route path="/aboutMe" element={<AboutMe />} />
+          <Route path="/competences" element={<Competences />} />
+          <Route path="/formation" element={<Formation />} />
+          <Route path="/experiences" element={<Experiences />} />
+          <Route path="/projets" element={<Projets />} />
+          <Route path="/certifications" element={<Certifications />} />
+        </Routes>
+      </Router>
+
+      <Footer />
+    </div>
   );
-  
 }
 
 export default App;

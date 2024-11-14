@@ -16,7 +16,7 @@ const Formation = () => {
   }, [location]);
 
   return (
-    <div ref={formationRef} className="text-white bg-gray-900">
+    <div ref={formationRef} className="relative text-white bg-gray-900">
       <h1 className="text-center text-3xl p-8 mb-12">Formations & Diplômes</h1>
 
       <div className="flex flex-wrap">

@@ -23,7 +23,7 @@ const Projets = () => {
   }, [location]);
 
   return (
-    <div ref={projetsRef} className="bg-gray-900 text-white">
+    <div ref={projetsRef} className="relative bg-gray-900 text-white">
       <h1 className="text-3xl text-center p-8 mb-12">Mes projets</h1>
 
       <div className="flex flex-wrap justify-center">

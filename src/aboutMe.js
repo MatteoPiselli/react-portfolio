@@ -19,7 +19,7 @@ const AboutMe = () => {
   }, [location]);
 
   return (
-    <div ref={aboutMeRef} className="bg-gray-900">
+    <div ref={aboutMeRef} className="relative bg-gray-900">
       {/* Contenu de la section */}
       <div className="ml-[25%] mr-[25%] text-white text-center p-8">
         <div className="flex space-y-2 items-center justify-center mb-4">
