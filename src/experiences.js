@@ -14,7 +14,7 @@ const Experiences = () => {
         experiencesRef.current.scrollIntoView({ behavior: "smooth" });
       }, 100);
     }
-  }, [location.state?.scrollTo]);
+  }, [location]);
 
   return (
     <div ref={experiencesRef} className="bg-gray-900 text-white">
