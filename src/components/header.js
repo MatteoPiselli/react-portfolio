@@ -66,7 +66,7 @@ const ImageWithText = () => {
           </h3>
 
           <a
-            href="/cv.pdf"
+            href="/react-portfolio/cv.pdf"
             download
             className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded-xl absolute bottom-[5%] right-4"
           >
