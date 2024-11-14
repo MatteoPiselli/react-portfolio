@@ -30,7 +30,9 @@ const Competences = () => {
   useEffect(() => {
     // Vérifie si l'état contient une ancre vers laquelle scroller
     if (location.state?.scrollTo && competencesRef.current) {
-      competencesRef.current.scrollIntoView({ behavior: "smooth" });
+      setTimeout(() => {
+        competencesRef.current.scrollIntoView({ behavior: "smooth" });
+      }, 100);
     }
   }, [location]);
 

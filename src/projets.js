@@ -16,7 +16,9 @@ const Projets = () => {
   useEffect(() => {
     // Vérifie si l'état contient une ancre vers laquelle scroller
     if (location.state?.scrollTo && projetsRef.current) {
-      projetsRef.current.scrollIntoView({ behavior: "smooth" });
+      setTimeout(() => {
+        projetsRef.current.scrollIntoView({ behavior: "smooth" });
+      }, 100);
     }
   }, [location]);
 

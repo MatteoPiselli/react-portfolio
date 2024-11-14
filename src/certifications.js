@@ -18,7 +18,9 @@ const Certifications = () => {
   useEffect(() => {
     // Vérifie si l'état contient une ancre vers laquelle scroller
     if (location.state?.scrollTo && certificationsRef.current) {
-      certificationsRef.current.scrollIntoView({ behavior: "smooth" });
+      setTimeout(() => {
+        certificationsRef.current.scrollIntoView({ behavior: "smooth" });
+      }, 100);
     }
   }, [location]);
 
@@ -48,7 +50,9 @@ const Certifications = () => {
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
               <h2 className="text-lg font-bold mb-2">
-                <a href={certifCisco} className="italic underline">Cisco</a>
+                <a href={certifCisco} className="italic underline">
+                  Cisco
+                </a>
               </h2>
               <p className="text-sm">
                 Certification Cisco Networking Academy "Introduction to
@@ -67,10 +71,13 @@ const Certifications = () => {
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
               <h2 className="text-lg font-bold mb-2">
-                <a href={certifOpenclassroom} className="italic underline">Openclassrooms</a>
+                <a href={certifOpenclassroom} className="italic underline">
+                  Openclassrooms
+                </a>
               </h2>
               <p className="text-sm">
-                Certifications Openclassrooms en autodidacte sur les différents métiers de développeur; sur la cybersécurité.
+                Certifications Openclassrooms en autodidacte sur les différents
+                métiers de développeur; sur la cybersécurité.
               </p>
             </div>
           </div>
@@ -81,7 +88,9 @@ const Certifications = () => {
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
               <h2 className="text-lg font-bold mb-2">
-                <a href={certifPix} className="italic underline">PIX</a>
+                <a href={certifPix} className="italic underline">
+                  PIX
+                </a>
               </h2>
               <p className="text-sm">
                 Certification PIX obligatoire effectuer en cours de formation du

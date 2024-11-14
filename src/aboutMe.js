@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useRef } from "react";
+import { useRef, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import bts_sio from "./assets/images/bts_sio.webp";
@@ -11,9 +11,10 @@ const AboutMe = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // Vérifie si l'état contient une ancre vers laquelle scroller
     if (location.state?.scrollTo && aboutMeRef.current) {
-      aboutMeRef.current.scrollIntoView({ behavior: "smooth" });
+      setTimeout(() => {
+        aboutMeRef.current.scrollIntoView({ behavior: "smooth" });
+      }, 100);
     }
   }, [location]);
 

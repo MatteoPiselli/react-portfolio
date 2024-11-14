@@ -10,9 +10,11 @@ const Experiences = () => {
   useEffect(() => {
     // Vérifie si l'état contient une ancre vers laquelle scroller
     if (location.state?.scrollTo && experiencesRef.current) {
-      experiencesRef.current.scrollIntoView({ behavior: "smooth" });
+      setTimeout(() => {
+        experiencesRef.current.scrollIntoView({ behavior: "smooth" });
+      }, 100);
     }
-  }, [location]);
+  }, [location.state?.scrollTo]);
 
   return (
     <div ref={experiencesRef} className="bg-gray-900 text-white">
