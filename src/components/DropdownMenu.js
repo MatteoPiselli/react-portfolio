@@ -75,7 +75,7 @@ const DropdownMenu = () => {
               <li>
                 <div className="flex space-x-4">
                   <img src={Home} alt="accueil" className="w-[25px] h-[25px]" />
-                  <Link to="/" className="text-gray-800 hover:text-sky-600">
+                  <Link to="/react-portfolio/" className="text-gray-800 hover:text-sky-600">
                     Accueil
                   </Link>
                 </div>
