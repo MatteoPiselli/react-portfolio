@@ -39,30 +39,27 @@ const ImageWithText = () => {
   }, [currentIndex, isDeleting, fullText, typingSpeed, pauseTime]);
 
   return (
-    <div>
-      {/* Image d'en-tête */}
-      <div className="relative w-full h-screen">
-        <img src={header} alt="Header" className="w-full h-full" />
+    <div className="relative w-full h-screen">
+      <img src={header} alt="Header" className="w-full h-full" />
 
-        <ParticlesBackground />
+      <ParticlesBackground />
 
-        <DropdownMenu />
+      <DropdownMenu />
 
-        <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <h1 className="text-white text-5xl font-bold">Matteo PISELLI</h1>
+      <div className="absolute inset-0 flex flex-col items-center justify-center">
+        <h1 className="text-white text-5xl font-bold">Matteo PISELLI</h1>
 
-          <div className="h-10" />
+        <div className="h-10" />
 
-          <h3 className="text-white text-3xl font-bold">{text}</h3>
+        <h3 className="text-white text-3xl font-bold">{text}</h3>
 
-          <a
-            href="/react-portfolio/cv.pdf"
-            download
-            className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded-xl absolute bottom-[5%] right-4"
-          >
-            Télécharger mon CV
-          </a>
-        </div>
+        <a
+          href="/react-portfolio/cv.pdf"
+          download
+          className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded-xl absolute bottom-[5%] right-4"
+        >
+          Télécharger mon CV
+        </a>
       </div>
     </div>
   );
