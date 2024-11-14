@@ -1,87 +1,93 @@
-import React from 'react';
-import Particles from 'react-tsparticles';
-import { loadFull } from "tsparticles"; // Remplacez loadFull par loadSlim
-import image from "../assets/images/header.png"
+import { useCallback } from "react";
+import Particles from "react-particles";
+//import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
+import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
 
 const ParticlesBackground = () => {
-  
+    const particlesInit = useCallback(async engine => {
+        console.log(engine);
+        // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+        // starting from v2 you can add only the features you need reducing the bundle size
+        //await loadFull(engine);
+        await loadSlim(engine);
+    }, []);
 
-const particlesInit = async (main) => {
-  await loadFull(main); // Utilisez loadSlim pour des fonctionnalités basiques
-};
+    const particlesLoaded = useCallback(async container => {
+        await console.log(container);
+    }, []);
 
-
-  return (
-    <div className="relative w-full h-screen bg-gray-800 overflow-hidden">
-      {/* Image de fond */}
-      <img
-        src={image} // Remplacez par le chemin de votre image
-        alt="Background"
-        className="absolute inset-0 w-full h-full object-cover opacity-80"
-      />
-
-      {/* Particules */}
-      <Particles
-  id="tsparticles"
-  init={particlesInit}
-  options={{
-    particles: {
-      number: {
-        value: 50,
-        density: {
-          enable: true,
-          area: 800,
-        },
-      },
-      color: {
-        value: "#ffffff",
-      },
-      shape: {
-        type: "circle",
-      },
-      opacity: {
-        value: 0.5,
-      },
-      size: {
-        value: 3,
-        random: true,
-      },
-      move: {
-        enable: true,
-        speed: 1,
-      },
-      links: {
-        enable: true,
-        distance: 150,
-        color: "#ffffff",
-        opacity: 0.4,
-        width: 1,
-      },
-    },
-    interactivity: {
-      events: {
-        onHover: {
-          enable: true,
-          mode: "grab",
-        },
-      },
-      modes: {
-        grab: {
-          distance: 140,
-          lineLinked: {
-            opacity: 0.5,
-          },
-        },
-      },
-    },
-    detectRetina: true,
-  }}
-  className="absolute top-0 left-0 w-full h-full pointer-events-none"
-/>
-
-      
-      </div>
-  );
+    return (
+        <Particles
+            id="tsparticles"
+            init={particlesInit}
+            loaded={particlesLoaded}
+            options={{                
+                fpsLimit: 120,
+                interactivity: {
+                    events: {
+                        onClick: {
+                            enable: true,
+                            mode: "push",
+                        },
+                        onHover: {
+                            enable: true,
+                            mode: "repulse",
+                        },
+                        resize: true,
+                    },
+                    modes: {
+                        push: {
+                            quantity: 4,
+                        },
+                        repulse: {
+                            distance: 200,
+                            duration: 0.4,
+                        },
+                    },
+                },
+                particles: {
+                    color: {
+                        value: "#ffffff",
+                    },
+                    links: {
+                        color: "#ffffff",
+                        distance: 150,
+                        enable: true,
+                        opacity: 0.5,
+                        width: 1,
+                    },
+                    move: {
+                        direction: "none",
+                        enable: true,
+                        outModes: {
+                            default: "bounce",
+                        },
+                        random: false,
+                        speed: 2,
+                        straight: false,
+                    },
+                    number: {
+                        density: {
+                            enable: true,
+                            area: 800,
+                        },
+                        value: 80,
+                    },
+                    opacity: {
+                        value: 0.5,
+                    },
+                    shape: {
+                        type: "circle",
+                    },
+                    size: {
+                        value: { min: 1, max: 5 },
+                    },
+                },
+                detectRetina: true,
+            }}
+        />
+    );
 };
 
 export default ParticlesBackground;
