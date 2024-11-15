@@ -34,9 +34,7 @@ const Certifications = () => {
             <div className="p-4 text-center">
               <h2 className="text-lg font-bold mb-2">ANSSI</h2>
               <p className="text-sm">
-                Au cours de la formation du BTS SIO, on a suivi le MOOC de
-                l'ANSSI, SecNumAcademie qui a pour but de sensibiliser le plus
-                grand nombre d’individus aux enjeux de la cybersécurité.
+                SecNumAcademie qui a pour but de sensibiliser aux enjeux de la cybersécurité.
               </p>
             </div>
           </div>
@@ -52,8 +50,7 @@ const Certifications = () => {
                 </a>
               </h2>
               <p className="text-sm">
-                Cisco Networking Academy "Introduction to
-                Cybersecurity"
+                 "Introduction to Cybersecurity"
               </p>
             </div>
           </div>
@@ -84,7 +81,7 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="font-bold">                
+              <h2 className="text-sm font-bold">                
                   Créez votre site web avec HTML5 et CSS3                
               </h2>
             </div>
@@ -99,7 +96,7 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="font-bold">                
+              <h2 className="text-sm font-bold">                
                 Concevez votre site web avec PHP et MySQL               
               </h2>
             </div>
@@ -114,8 +111,8 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="font-bold">                
-                Apprenez à programmer & Écrivez du JavaScript pour le web              
+              <h2 className="text-sm font-bold">                
+                Apprenez à programmer avec JavaScript              
               </h2>
             </div>
           </div>
@@ -129,7 +126,22 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="font-bold">                
+              <h2 className="text-sm font-bold">                
+                Écrivez du JavaScript pour le web              
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div className="relative transform transition-transform duration-300 hover:scale-105">
+          <img
+            src={openclassroom}
+            alt="openclassroom"
+            className="w-full h-auto rounded-lg"
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+            <div className="p-4 text-center">
+              <h2 className="text-sm font-bold">                
                 Implémentez vos bases de données relationnelles avec SQL             
               </h2>
             </div>
@@ -144,7 +156,7 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="font-bold">                
+              <h2 className="text-sm font-bold">                
               Gérez du code avec Git et GitHub             
               </h2>
             </div>
@@ -159,7 +171,7 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="font-bold">                
+              <h2 className="text-sm font-bold">                
               Comprendre le Web             
               </h2>
             </div>
@@ -174,13 +186,29 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="font-bold">                
-              Découvrez l'univers de la cybersécurité & Les différents métiers de développeur            
+              <h2 className="text-sm font-bold">                
+              Découvrez les différents métiers de développeur            
               </h2>
             </div>
           </div>
-        </div>            
+        </div> 
+
+        <div className="relative transform transition-transform duration-300 hover:scale-105">
+          <img
+            src={openclassroom}
+            alt="openclassroom"
+            className="w-full h-auto rounded-lg"
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+            <div className="p-4 text-center">
+              <h2 className="text-sm font-bold">                
+              Découvrez l'univers de la cybersécurité          
+              </h2>
+            </div>
+          </div>
+        </div>           
       </div>
+      <br />
       <br />
       <br />
       <br />

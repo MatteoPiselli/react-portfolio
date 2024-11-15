@@ -24,11 +24,11 @@ const Projets = () => {
 
   return (
     <div ref={projetsRef} className="relative bg-gray-900 text-white">
-      <h1 className="text-3xl text-center p-8 mb-12">Mes projets</h1>
+      <h1 className="text-3xl text-center p-8 mb-4">Mes projets</h1>
 
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-col items-center md:flex-wrap md:flex-row md:justify-center">
         {/* PORTFOLIO */}
-        <div className="relative w-[25%] h-auto mr-8 mb-8 transform transition-transform duration-300 hover:scale-105">
+        <div className="relative w-[90%] md:w-[25%] h-auto m-8 transform transition-transform duration-300 hover:scale-105">
           <img
             src={portfolio}
             alt="portfolio"
@@ -46,7 +46,7 @@ const Projets = () => {
         </div>
 
         {/* APIqfap */}
-        <div className="relative w-[25%] h-auto mr-8 mb-8 transform transition-transform duration-300 hover:scale-105">
+        <div className="relative w-[90%] md:w-[25%] h-auto m-8 transform transition-transform duration-300 hover:scale-105">
           <img src={qfap} alt="api qfap" className="w-full h-auto rounded-lg" />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
@@ -62,7 +62,7 @@ const Projets = () => {
         </div>
 
         {/* MEMORY ANIME */}
-        <div className="relative w-[25%] h-auto mr-8 mb-8 transform transition-transform duration-300 hover:scale-105">
+        <div className="relative w-[90%] md:w-[25%] h-auto m-8 transform transition-transform duration-300 hover:scale-105">
           <img
             src={memoryAnime}
             alt="memory anime"
@@ -83,7 +83,7 @@ const Projets = () => {
         </div>
 
         {/* PARTENAIRES PARTICULIERS */}
-        <div className="relative w-[25%] h-auto mr-8 mb-8 transform transition-transform duration-300 hover:scale-105">
+        <div className="relative w-[90%] md:w-[25%] h-auto m-8 transform transition-transform duration-300 hover:scale-105">
           <img
             src={pp}
             alt="partenaires-particuliers"
@@ -110,7 +110,7 @@ const Projets = () => {
         </div>
 
         {/* PROJET AIRBNB */}
-        <div className="relative w-[25%] h-auto mr-8 mb-8 transform transition-transform duration-300 hover:scale-105">
+        <div className="relative w-[90%] md:w-[25%] h-auto m-8 transform transition-transform duration-300 hover:scale-105">
           <img src={airbnb} alt="airbnb" className="w-full h-auto rounded-lg" />
 
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
