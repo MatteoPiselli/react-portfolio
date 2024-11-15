@@ -39,7 +39,7 @@ const ImageWithText = () => {
   }, [currentIndex, isDeleting, fullText, typingSpeed, pauseTime]);
 
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-[80%] md:h-full">
       <img src={header} alt="Header" className="w-full h-full" />
 
       <ParticlesBackground />
@@ -51,12 +51,12 @@ const ImageWithText = () => {
 
         <div className="h-10" />
 
-        <h3 className="text-white text-3xl font-bold">{text}</h3>
+        <h3 className="text-white md:text-3xl font-bold">{text}</h3>
 
         <a
           href="/react-portfolio/cv.pdf"
           download
-          className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded-xl absolute bottom-[5%] right-4"
+          className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded-xl absolute bottom-32 md:bottom-[5%] md:right-4"
         >
           Télécharger mon CV
         </a>
