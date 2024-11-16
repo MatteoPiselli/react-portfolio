@@ -62,16 +62,16 @@ const DropdownMenu = () => {
         {/* Menu déroulant qui s'affiche ou non en fonction de l'état `isOn` */}
         {isOn && (
           <motion.div
-            className="absolute top-0 bg-white bg-opacity-75 h-full rounded-md p-4"
+            className="absolute top-0 bg-white bg-opacity-75 w-full md:w-auto h-full rounded-md p-4"
             initial={{ x: "-100%" }} // Le menu commence hors de l'écran à gauche
             animate={{ x: "0%" }} // Le menu glisse vers la position finale
             exit={{ x: "-100%" }} // Le menu glisse hors de l'écran quand il disparaît
             transition={spring} // Transition avec effet de ressort
           >
-            <p className="font-bold text-3xl">Matteo PISELLI</p>
-            <p className="italic text-lg">Etudiant Développeur Web</p>
+            <p className="font-bold text-xl md:text-3xl">Matteo PISELLI</p>
+            <p className="italic text-md md:text-lg">Etudiant Développeur Web</p>
             <br />
-            <ul className="space-y-4">
+            <ul className="flex flex-col items-center justify-center md:items-start space-y-4">
               <li>
                 <div className="flex space-x-4">
                   <img src={Home} alt="accueil" className="w-[25px] h-[25px]" />
