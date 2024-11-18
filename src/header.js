@@ -39,8 +39,8 @@ const ImageWithText = () => {
   }, [currentIndex, isDeleting, fullText, typingSpeed, pauseTime]);
 
   return (
-    <div className="relative w-full h-[80%] md:h-full">
-      <img src={header} alt="Header" className="w-full h-full" />
+    <div className="relative">
+      <img src={header} alt="Header" className="w-full h-screen" />
 
       <ParticlesBackground />
 
