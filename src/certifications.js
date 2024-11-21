@@ -65,7 +65,7 @@ const Certifications = () => {
                   PIX
                 </a>
               </h2>
-              <p className="text-sm">
+              <p className="text-xs md:text-sm">
                 Certification PIX obligatoire effectuer en cours de formation du
                 BTS SIO.
               </p>
@@ -141,7 +141,7 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="text-sm font-bold">                
+              <h2 className="text-xs md:text-sm font-bold">                
                 Implémentez vos bases de données relationnelles avec SQL             
               </h2>
             </div>

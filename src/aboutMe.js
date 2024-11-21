@@ -57,7 +57,7 @@ const AboutMe = () => {
         {/* Conteneur pour le texte superposé */}
         <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white">
           <p className="text-center text-2xl font-bold">BTS SIO</p>
-          <p className="mt-2 mx-[10%] font-bold text-sm text-justify">
+          <p className="mt-2 mx-[10%] font-bold text-xs md:text-lg text-justify">
             Le Brevet de Technicien Supérieur Services informatique aux
             Organisations (SIO) s’adresse à ceux qui souhaitent se former en
             deux ans aux métiers d’administrateur réseau (SISR) ou de

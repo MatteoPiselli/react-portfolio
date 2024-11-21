@@ -54,8 +54,7 @@ const Projets = () => {
               <p className="text-sm">
                 Groupe de 4 étudiants pendant ma 3e année de Bachelor, notre
                 mission était de construire une API en une semaine basée sur une
-                extraction 2023/2024 des données de l'API opendata.paris.fr. «
-                Que Faire à Paris ?
+                extraction 2023/2024 des données de l'API opendata.paris.fr. "Que Faire à Paris?"
               </p>
             </div>
           </div>
