@@ -38,8 +38,7 @@ const Projets = () => {
             <div className="p-4 text-center">
               <h2 className="text-lg font-bold mb-2">Portfolio</h2>
               <p className="text-sm">
-                J'ai décidé de développer mon portfolio en utilisant React et
-                Tailwind pour m'entrainer avec ces langages.
+                Développement du portfolio avec React et Tailwind 
               </p>
             </div>
           </div>
@@ -50,11 +49,12 @@ const Projets = () => {
           <img src={qfap} alt="api qfap" className="w-full h-auto rounded-lg" />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="text-lg font-bold mb-2">Projet API</h2>
+              <h2 className="text-lg font-bold mb-2">Projet API QFAP</h2>
               <p className="text-sm">
-                Groupe de 4 étudiants pendant ma 3e année de Bachelor, notre
-                mission était de construire une API en une semaine basée sur une
-                extraction 2023/2024 des données de l'API opendata.paris.fr. "Que Faire à Paris?"
+                En groupe de 4 étudiants durant ma 3ᵉ année de Bachelor, 
+                notre mission était de construire une API en une semaine, 
+                basée sur l'extraction 2023/2024 des données de l'API opendata.paris.fr 
+                intitulée "Que Faire à Paris ?".
               </p>
             </div>
           </div>
@@ -72,10 +72,9 @@ const Projets = () => {
             <div className="p-4 text-center">
               <h2 className="text-lg font-bold mb-2">Matchs the pairs</h2>
               <p className="text-sm">
-                Ce projet à été réalisé durant ma 3e année de Bachelor. C'est un
-                système qui consiste à retrouver les paires de cartes et qui se
-                réinitialise si l'on se trompe. Pour ce projet j'ai utilisé
-                React.
+                Ce projet a été réalisé durant ma 3ᵉ année de Bachelor. Il s'agit d'un
+                système permettant de retrouver les paires de cartes, qui se
+                réinitialise en cas d'erreur. Pour ce projet, j'ai utilisé React.
               </p>
             </div>
           </div>
@@ -94,15 +93,14 @@ const Projets = () => {
                 <a
                   href="https://www.partenaires-particuliers.fr/"
                   target="_blank"
-                  className="italic underline"
+                  className="italic underline" rel="noreferrer"
                 >
                   Partenaires Particuliers
                 </a>
               </h2>
               <p className="text-sm">
                 Refonte du site web de l'entreprise durant mon stage de BTS.
-                Utilisation des MediaQueries, pour ce projet j'ai utiliser les
-                langages HTML / CSS et JavaScript.
+                Utilisation des Media Queries. J'ai utilisé les langages HTML, CSS et JavaScript.
               </p>
             </div>
           </div>
@@ -116,11 +114,11 @@ const Projets = () => {
             <div className="p-4 text-center">
               <h2 className="text-lg font-bold mb-2">Projet Airbnb</h2>
               <p className="text-sm">
-                Ce projet à été réalisé durant ma première année de BTS. Il
-                consiste en la gestion de clients qui réserve un logement dans
-                une région qu'ils choisissent. Pour ce projet j'ai utilisé HTML
-                / CSS pour la partie front-end et PHP et MySql pour la partie
-                back-end / base de données.
+                Ce projet a été réalisé durant ma 1ᵉ année de BTS. Il
+                consiste en la gestion de clients qui réservent un logement dans
+                une région de leur choix. Pour ce projet, j'ai utilisé HTML
+                et CSS pour la partie front-end, ainsi que PHP et MySQL pour la partie
+                back-end et la base de données.
               </p>
             </div>
           </div>

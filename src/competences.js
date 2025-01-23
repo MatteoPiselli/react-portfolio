@@ -1,7 +1,7 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
 import ScrollToTopButton from "./components/ScrollToTopButton";
-
 import vscode from "./assets/images/competences/vscode.svg";
 import html from "./assets/images/competences/html.svg";
 import css from "./assets/images/competences/css.svg";
@@ -19,9 +19,7 @@ import macos from "./assets/images/competences/macOS.svg";
 import figma from "./assets/images/competences/figma.png";
 import tailwind from "./assets/images/competences/tailwind.svg";
 import uml from "./assets/images/competences/uml.svg";
-
-import { useEffect, useRef } from "react";
-import { useLocation } from "react-router-dom";
+import node from "./assets/images/competences/Node.js.svg"
 
 const Competences = () => {
   const competencesRef = useRef(null);
@@ -91,6 +89,16 @@ const Competences = () => {
           </div>
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <span className="text-sm text-white">TAILWIND</span>
+          </div>
+        </div>
+
+        <div className="relative transform transition-transform duration-300 hover:scale-105 bg-gray-800 rounded-lg p-5">
+          <img src={node} alt="node-js" />
+          <div className="absolute top-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg px-2 py-1">
+            <span className="text-white">Back-end</span>
+          </div>
+          <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+            <span className="text-sm text-white">NODE</span>
           </div>
         </div>
 
