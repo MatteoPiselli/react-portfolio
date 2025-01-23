@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.5be8a6a7.css",
-    "main.js": "/react-portfolio/static/js/main.badd8c0c.js",
+    "main.js": "/react-portfolio/static/js/main.5708e7c0.js",
     "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.033d672fb548284eb98e.png",
     "static/media/airbnb.png": "/react-portfolio/static/media/airbnb.c928367d8036894f6f02.png",
     "static/media/memory-anime.png": "/react-portfolio/static/media/memory-anime.b5aaa4722f2c642d882c.png",
@@ -39,6 +39,7 @@
     "static/media/github.svg": "/react-portfolio/static/media/github.3c903c66b2c5334c8c0b80567c4ea422.svg",
     "static/media/bash.svg": "/react-portfolio/static/media/bash.e22f475189b9c606a3cbac0a243a840d.svg",
     "static/media/java.svg": "/react-portfolio/static/media/java.a751bad6c81431ab4dd6fa6632a65540.svg",
+    "static/media/Node.js.svg": "/react-portfolio/static/media/Node.js.10c9e2aa0ca7edf36fceae25fec038a1.svg",
     "static/media/uml.svg": "/react-portfolio/static/media/uml.3f4c89d1e680b4a86ae9d235b8cebec9.svg",
     "static/media/ubuntu.svg": "/react-portfolio/static/media/ubuntu.19598217529d2acd420a9cd6fe4c8b22.svg",
     "static/media/js.svg": "/react-portfolio/static/media/js.4c1b5332c1b1057928f6f06cf972c91c.svg",
@@ -49,10 +50,10 @@
     "index.html": "/react-portfolio/index.html",
     "static/media/windows.svg": "/react-portfolio/static/media/windows.5cc84ba7ba7b6b804fd1cd25a98a1072.svg",
     "main.5be8a6a7.css.map": "/react-portfolio/static/css/main.5be8a6a7.css.map",
-    "main.badd8c0c.js.map": "/react-portfolio/static/js/main.badd8c0c.js.map"
+    "main.5708e7c0.js.map": "/react-portfolio/static/js/main.5708e7c0.js.map"
   },
   "entrypoints": [
     "static/css/main.5be8a6a7.css",
-    "static/js/main.badd8c0c.js"
+    "static/js/main.5708e7c0.js"
   ]
 }
