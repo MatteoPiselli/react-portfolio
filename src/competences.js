@@ -36,7 +36,7 @@ const Competences = () => {
 
   return (
     <div ref={competencesRef} className="relative bg-gray-900 text-white">
-      <h1 className="text-center text-3xl p-8 mb-12">Mes Compétences</h1>
+      <h1 className="text-center text-3xl p-8 mb-12">Mes Compétences / Découvertes</h1>
 
       <div className="ml-[10%] mr-[10%] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
         <div className="relative transform transition-transform duration-300 hover:scale-105 bg-gray-800 rounded-lg p-5">
