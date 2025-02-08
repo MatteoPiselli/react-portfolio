@@ -16,10 +16,15 @@ const Formation = () => {
   }, [location]);
 
   return (
-    <div ref={formationRef} className="relative text-white bg-gray-900">
-      <h1 className="text-center text-3xl p-8 mb-12">Formations & Diplômes</h1>
+    <div
+      ref={formationRef}
+      className="relative text-white bg-gray-900 min-h-screen flex flex-col justify-center"
+    >
+      <h1 className="text-center text-3xl p-8 mb-8 md:mb-20">
+        Formations & Diplômes
+      </h1>
 
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap border]">
         <div className="w-full md:w-1/2 px-12 mb-4">
           <div className="text-sm mt-8">2023-2024</div>
           <h2 className="font-semibold text-lg text-slate-600 mt-2">

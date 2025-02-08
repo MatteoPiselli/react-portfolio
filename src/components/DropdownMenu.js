@@ -36,7 +36,7 @@ const DropdownMenu = () => {
 
     setTimeout(() => {
       navigate(path, { state: { scrollTo: anchor } }); // Transmettre l'ancre en état
-    }, 500); // Délai correspondant à la durée de l'animation
+    }, 800); // Délai correspondant à la durée de l'animation
   };
 
   return (
@@ -221,10 +221,8 @@ const DropdownMenu = () => {
                 </div>
               </li>
             </ul>
-            <div className="absolute mt-20 md:bottom-48 left-1/2 transform -translate-x-1/2">
-              CONTACT
-            </div>
-            <div className="flex flex-col items-center md:items-start justify-center space-y-4 mt-28 md:bottom-5">
+            <div className="flex flex-col items-center md:items-start justify-center space-y-4 mt-28">
+              <p className="w-full text-center">CONTACT</p>
               <div className="flex space-x-2">
                 <img
                   src={Telephone}
