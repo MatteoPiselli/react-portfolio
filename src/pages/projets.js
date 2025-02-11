@@ -43,7 +43,7 @@ const Projets = () => {
                 League of Legends de Riot Games, en prenant{" "}
                 <a
                   href="https://www.op.gg/"
-                  className="underline font-bold italic"
+                  className="underline font-bold italic hover:opacity-75 hover:scale-110 inline-block"
                   target="_blank"
                   rel="noreferrer"
                 >
