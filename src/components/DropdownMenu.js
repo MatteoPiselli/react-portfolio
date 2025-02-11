@@ -17,7 +17,6 @@ import Formation from "../assets/images/icons/formation.png";
 
 const DropdownMenu = () => {
   const [isOn, setIsOn] = useState(false); // État pour gérer l'affichage du menu
-
   const toggleMenu = () => setIsOn(!isOn); // Fonction pour basculer l'affichage du menu
 
   const spring = {

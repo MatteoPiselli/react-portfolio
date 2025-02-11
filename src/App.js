@@ -10,14 +10,15 @@ import Experiences from "./pages/experiences";
 import Projets from "./pages/projets";
 import Certifications from "./pages/certifications";
 import Footer from "./components/Footer";
+import ImageLoader from "./components/ImageLoader";
 
 function App() {
   return (
     <div>
       <Router>
+        <ImageLoader />
         <Header />
         <DropdownMenu />
-
         <Routes>
           <Route path="/aboutMe" element={<AboutMe />} />
           <Route path="/competences" element={<Competences />} />
@@ -27,7 +28,6 @@ function App() {
           <Route path="/certifications" element={<Certifications />} />
         </Routes>
       </Router>
-
       <Footer />
     </div>
   );
