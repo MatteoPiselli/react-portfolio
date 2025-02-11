@@ -1,25 +1,25 @@
 import React from "react";
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
-import ScrollToTopButton from "./components/ScrollToTopButton";
-import vscode from "./assets/images/competences/vscode.svg";
-import html from "./assets/images/competences/html.svg";
-import css from "./assets/images/competences/css.svg";
-import js from "./assets/images/competences/js.svg";
-import github from "./assets/images/competences/github.svg";
-import java from "./assets/images/competences/java.svg";
-import mySQL from "./assets/images/competences/mySQL.svg";
-import php from "./assets/images/competences/php.svg";
-import python from "./assets/images/competences/python.svg";
-import bash from "./assets/images/competences/bash.svg";
-import react from "./assets/images/competences/reactjs.svg";
-import windows from "./assets/images/competences/windows.svg";
-import ubuntu from "./assets/images/competences/ubuntu.svg";
-import macos from "./assets/images/competences/macOS.svg";
-import figma from "./assets/images/competences/figma.png";
-import tailwind from "./assets/images/competences/tailwind.svg";
-import uml from "./assets/images/competences/uml.svg";
-import node from "./assets/images/competences/Node.js.svg"
+import ScrollToTopButton from "../components/ScrollToTopButton";
+import vscode from "../assets/images/competences/vscode.svg";
+import html from "../assets/images/competences/html.svg";
+import css from "../assets/images/competences/css.svg";
+import js from "../assets/images/competences/js.svg";
+import github from "../assets/images/competences/github.svg";
+import java from "../assets/images/competences/java.svg";
+import mySQL from "../assets/images/competences/mySQL.svg";
+import php from "../assets/images/competences/php.svg";
+import python from "../assets/images/competences/python.svg";
+import bash from "../assets/images/competences/bash.svg";
+import react from "../assets/images/competences/reactjs.svg";
+import windows from "../assets/images/competences/windows.svg";
+import ubuntu from "../assets/images/competences/ubuntu.svg";
+import macos from "../assets/images/competences/macOS.svg";
+import figma from "../assets/images/competences/figma.png";
+import tailwind from "../assets/images/competences/tailwind.svg";
+import uml from "../assets/images/competences/uml.svg";
+import node from "../assets/images/competences/Node.js.svg";
 
 const Competences = () => {
   const competencesRef = useRef(null);
@@ -36,7 +36,9 @@ const Competences = () => {
 
   return (
     <div ref={competencesRef} className="relative bg-gray-900 text-white">
-      <h1 className="text-center text-3xl p-8 mb-12">Mes Compétences / Découvertes</h1>
+      <h1 className="text-center text-3xl p-8 mb-12">
+        Mes Compétences / Découvertes
+      </h1>
 
       <div className="ml-[10%] mr-[10%] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
         <div className="relative transform transition-transform duration-300 hover:scale-105 bg-gray-800 rounded-lg p-5">

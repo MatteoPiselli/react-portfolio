@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import header from "./assets/images/header.png";
-import DropdownMenu from "./components/DropdownMenu";
-import ParticlesBackground from "./components/particles";
+import header from "../assets/images/header.png";
+import DropdownMenu from "./DropdownMenu";
+import ParticlesBackground from "./particles";
 
 const ImageWithText = () => {
   const [text, setText] = useState(""); // État pour le texte affiché progressivement

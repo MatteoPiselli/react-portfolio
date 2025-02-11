@@ -1,11 +1,11 @@
 import React from "react";
-import ScrollToTopButton from "./components/ScrollToTopButton";
-import airbnb from "./assets/images/projets/airbnb.png";
-import pp from "./assets/images/projets/partenaires-particuliers.png";
-import memoryAnime from "./assets/images/projets/memory-anime.png";
-import qfap from "./assets/images/projets/qfap.png";
-import portfolio from "./assets/images/projets/portfolio.png";
-import riotApi from "./assets/images/projets/riot-api.png";
+import ScrollToTopButton from "../components/ScrollToTopButton";
+import airbnb from "../assets/images/projets/airbnb.png";
+import pp from "../assets/images/projets/partenaires-particuliers.png";
+import memoryAnime from "../assets/images/projets/memory-anime.png";
+import qfap from "../assets/images/projets/qfap.png";
+import portfolio from "../assets/images/projets/portfolio.png";
+import riotApi from "../assets/images/projets/riot-api.png";
 
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
@@ -44,11 +44,12 @@ const Projets = () => {
                 <a
                   href="https://www.op.gg/"
                   className="underline font-bold italic"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   OP.GG
-                </a>
-                {" "}comme référence pour l'affichage des données.
+                </a>{" "}
+                comme référence pour l'affichage des données.
                 <br />
                 <u>Stack Technique :</u>{" "}
                 <strong>React.js, Tailwind CSS, Node.js</strong>.

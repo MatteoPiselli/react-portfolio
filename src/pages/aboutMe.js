@@ -1,10 +1,10 @@
 import React from "react";
 import { useRef, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import ScrollToTopButton from "./components/ScrollToTopButton";
-import bts_sio from "./assets/images/bts_sio.webp";
-import aboutMe from "./assets/images/icons/a-propos.png";
-import doigt from "./assets/images/icons/doigt-leve.png";
+import ScrollToTopButton from "../components/ScrollToTopButton";
+import bts_sio from "../assets/images/bts_sio.webp";
+import aboutMe from "../assets/images/icons/a-propos.png";
+import doigt from "../assets/images/icons/doigt-leve.png";
 
 const AboutMe = () => {
   const aboutMeRef = useRef(null);
@@ -24,13 +24,14 @@ const AboutMe = () => {
       <div className="md:ml-[25%] md:mr-[25%] text-white text-center p-8">
         <div className="flex space-y-2 items-center justify-center mb-4">
           <h1 className="text-3xl mr-2">À propos de moi</h1>
-          <img src={aboutMe} className="w-12 ml-2 invert" />
+          <img src={aboutMe} alt="à propos" className="w-12 ml-2 invert" />
         </div>
         Actuellement étudiant de 21 ans en développement web, je détiens un
         <a
           href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers"
           target="_blank"
           className="font-bold underline italic hover:not-italic inline-block"
+          rel="noreferrer"
         >
           BTS services informatiques aux organisation option B solutions
           logicielles et applications métiers (SIO SLAM)
@@ -38,10 +39,18 @@ const AboutMe = () => {
         <br />
         <br />
         <div className="text-center">
-          <img src={doigt} className="w-8 inline-block" />
+          <img
+            src={doigt}
+            alt="doigt vers le haut"
+            className="w-8 inline-block"
+          />
           Vous pouvez cliquez sur ce lien de l'Onisep pour en savoir plus sur le
           BTS SIO.
-          <img src={doigt} className="w-8 inline-block" />
+          <img
+            src={doigt}
+            alt="doigt vers le haut"
+            className="w-8 inline-block"
+          />
         </div>
         <br />
         <p>

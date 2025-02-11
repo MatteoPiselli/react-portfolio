@@ -1,11 +1,11 @@
 import React from "react";
-import ScrollToTopButton from "./components/ScrollToTopButton";
-import anssi from "./assets/images/certifications/Anssi.webp";
-import cisco from "./assets/images/certifications/cisco.webp";
-import openclassroom from "./assets/images/certifications/openclassroom.webp";
-import pix from "./assets/images/certifications/pix.webp";
-import certifCisco from "./assets/images/certifications/cisco.pdf";
-import certifPix from "./assets/images/certifications/pix.pdf";
+import ScrollToTopButton from "../components/ScrollToTopButton";
+import anssi from "../assets/images/certifications/Anssi.webp";
+import cisco from "../assets/images/certifications/cisco.webp";
+import openclassroom from "../assets/images/certifications/openclassroom.webp";
+import pix from "../assets/images/certifications/pix.webp";
+import certifCisco from "../assets/images/certifications/cisco.pdf";
+import certifPix from "../assets/images/certifications/pix.pdf";
 
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
@@ -34,7 +34,8 @@ const Certifications = () => {
             <div className="p-4 text-center">
               <h2 className="text-lg font-bold mb-2">ANSSI</h2>
               <p className="text-sm">
-                SecNumAcademie qui a pour but de sensibiliser aux enjeux de la cybersécurité.
+                SecNumAcademie qui a pour but de sensibiliser aux enjeux de la
+                cybersécurité.
               </p>
             </div>
           </div>
@@ -49,9 +50,7 @@ const Certifications = () => {
                   Cisco
                 </a>
               </h2>
-              <p className="text-sm">
-                 "Introduction to Cybersecurity"
-              </p>
+              <p className="text-sm">"Introduction to Cybersecurity"</p>
             </div>
           </div>
         </div>
@@ -81,8 +80,8 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="text-sm font-bold">                
-                  Créez votre site web avec HTML5 et CSS3                
+              <h2 className="text-sm font-bold">
+                Créez votre site web avec HTML5 et CSS3
               </h2>
             </div>
           </div>
@@ -96,8 +95,8 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="text-sm font-bold">                
-                Concevez votre site web avec PHP et MySQL               
+              <h2 className="text-sm font-bold">
+                Concevez votre site web avec PHP et MySQL
               </h2>
             </div>
           </div>
@@ -111,8 +110,8 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="text-sm font-bold">                
-                Apprenez à programmer avec JavaScript              
+              <h2 className="text-sm font-bold">
+                Apprenez à programmer avec JavaScript
               </h2>
             </div>
           </div>
@@ -126,8 +125,8 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="text-sm font-bold">                
-                Écrivez du JavaScript pour le web              
+              <h2 className="text-sm font-bold">
+                Écrivez du JavaScript pour le web
               </h2>
             </div>
           </div>
@@ -141,8 +140,8 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="text-xs md:text-sm font-bold">                
-                Implémentez vos bases de données relationnelles avec SQL             
+              <h2 className="text-xs md:text-sm font-bold">
+                Implémentez vos bases de données relationnelles avec SQL
               </h2>
             </div>
           </div>
@@ -156,8 +155,8 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="text-sm font-bold">                
-              Gérez du code avec Git et GitHub             
+              <h2 className="text-sm font-bold">
+                Gérez du code avec Git et GitHub
               </h2>
             </div>
           </div>
@@ -171,8 +170,21 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="text-sm font-bold">                
-              Comprendre le Web             
+              <h2 className="text-sm font-bold">Comprendre le Web</h2>
+            </div>
+          </div>
+        </div>
+
+        <div className="relative transform transition-transform duration-300 hover:scale-105">
+          <img
+            src={openclassroom}
+            alt="openclassroom"
+            className="w-full h-auto rounded-lg"
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+            <div className="p-4 text-center">
+              <h2 className="text-sm font-bold">
+                Découvrez les différents métiers de développeur
               </h2>
             </div>
           </div>
@@ -186,27 +198,12 @@ const Certifications = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div className="p-4 text-center">
-              <h2 className="text-sm font-bold">                
-              Découvrez les différents métiers de développeur            
+              <h2 className="text-sm font-bold">
+                Découvrez l'univers de la cybersécurité
               </h2>
             </div>
           </div>
-        </div> 
-
-        <div className="relative transform transition-transform duration-300 hover:scale-105">
-          <img
-            src={openclassroom}
-            alt="openclassroom"
-            className="w-full h-auto rounded-lg"
-          />
-          <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
-            <div className="p-4 text-center">
-              <h2 className="text-sm font-bold">                
-              Découvrez l'univers de la cybersécurité          
-              </h2>
-            </div>
-          </div>
-        </div>           
+        </div>
       </div>
       <br />
       <br />

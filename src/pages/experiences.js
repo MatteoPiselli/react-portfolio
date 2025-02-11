@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
-import ScrollToTopButton from "./components/ScrollToTopButton";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 const Experiences = () => {
   const experiencesRef = useRef(null);
@@ -23,18 +23,16 @@ const Experiences = () => {
       </h1>
 
       <div className="flex flex-wrap">
-
-      <div className="w-full md:w-1/2 px-12 mb-12">
+        <div className="w-full md:w-1/2 px-12 mb-12">
           <span className="text-sm">Décembre 2024</span>
           <h3 className="font-semibold text-lg text-slate-600 mt-2">
             Grand Frais (La Queue-en-Brie - 94510)
           </h3>
-          <p className="font-medium opacity-75">
-            CDD Hôte de caisse :
-          </p>
+          <p className="font-medium opacity-75">CDD Hôte de caisse :</p>
           <ul className="list-disc ml-5">
             <li>
-              Caissier pour renforcer l’effectif pendant les fêtes de fin d’année
+              Caissier pour renforcer l’effectif pendant les fêtes de fin
+              d’année
             </li>
           </ul>
         </div>

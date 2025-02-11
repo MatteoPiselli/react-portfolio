@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
-import ScrollToTopButton from "./components/ScrollToTopButton";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 const Formation = () => {
   const formationRef = useRef(null);
