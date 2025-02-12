@@ -10,13 +10,11 @@ import Experiences from "./pages/experiences";
 import Projets from "./pages/projets";
 import Certifications from "./pages/certifications";
 import Footer from "./components/Footer";
-import ImageLoader from "./components/ImageLoader";
 
 function App() {
   return (
     <div>
       <Router>
-        <ImageLoader />
         <Header />
         <DropdownMenu />
         <Routes>
