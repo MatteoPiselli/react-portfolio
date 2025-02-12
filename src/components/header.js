@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import header from "../assets/images/header.png";
 import DropdownMenu from "./DropdownMenu";
 import ParticlesBackground from "./particles";
@@ -10,6 +11,7 @@ const ImageWithText = () => {
   const fullText = "N'hésitez pas à explorer mon portfolio !"; // Texte complet à afficher
   const typingSpeed = 90; // Vitesse d'apparition des lettres (en millisecondes)
   const pauseTime = 1000; // Temps de pause avant de redémarrer la boucle (en millisecondes)
+  const navigate = useNavigate();
 
   useEffect(() => {
     let timeoutId;
@@ -38,6 +40,11 @@ const ImageWithText = () => {
     return () => clearTimeout(timeoutId);
   }, [currentIndex, isDeleting, fullText, typingSpeed, pauseTime]);
 
+  const handleContactClick = (e) => {
+    e.preventDefault();
+    navigate("/contact", { state: { scrollTo: "contactForm" } });
+  };
+
   return (
     <div className="relative">
       <img src={header} alt="Header" className="w-full h-screen" />
@@ -60,6 +67,16 @@ const ImageWithText = () => {
         >
           Télécharger mon CV
         </a>
+
+        <p className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded-xl absolute bottom-32 md:bottom-[5%] md:right-4">
+          <Link
+            to="/contact"
+            onClick={handleContactClick}
+            className="text-gray-800 hover:text-sky-600 transform transition-transform duration-300 hover:scale-105"
+          >
+            Contact
+          </Link>
+        </p>
       </div>
     </div>
   );

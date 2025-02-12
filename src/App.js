@@ -10,6 +10,7 @@ import Experiences from "./pages/experiences";
 import Projets from "./pages/projets";
 import Certifications from "./pages/certifications";
 import Footer from "./components/Footer";
+import Contact from "./pages/contact";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/experiences" element={<Experiences />} />
           <Route path="/projets" element={<Projets />} />
           <Route path="/certifications" element={<Certifications />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
       <Footer />
