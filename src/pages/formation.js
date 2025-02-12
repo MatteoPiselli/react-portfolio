@@ -18,11 +18,11 @@ const Formation = () => {
 
   return (
     <ImageLoader>
-      <div className="relative text-white bg-gray-900 min-h-screen flex flex-col justify-center">
-        <h1
-          ref={formationRef}
-          className="text-center text-3xl p-8 mb-8 md:mb-20"
-        >
+      <div
+        ref={formationRef}
+        className="relative text-white bg-gray-900 min-h-screen flex flex-col justify-center"
+      >
+        <h1 className="text-center text-3xl p-8 mb-8 md:mb-20">
           Formations & Diplômes
         </h1>
 

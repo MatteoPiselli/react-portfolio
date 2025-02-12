@@ -37,8 +37,8 @@ const Competences = () => {
 
   return (
     <ImageLoader>
-      <div className="relative bg-gray-900 text-white">
-        <h1 ref={competencesRef} className="text-center text-3xl p-8 mb-12">
+      <div ref={competencesRef} className="relative bg-gray-900 text-white">
+        <h1 className="text-center text-3xl p-8 mb-12">
           Mes Compétences / Découvertes
         </h1>
 

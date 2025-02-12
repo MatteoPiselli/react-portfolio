@@ -25,10 +25,8 @@ const Projets = () => {
 
   return (
     <ImageLoader>
-      <div className="relative bg-gray-900 text-white">
-        <h1 ref={projetsRef} className="text-3xl text-center p-8 mb-4">
-          Mes projets
-        </h1>
+      <div ref={projetsRef} className="relative bg-gray-900 text-white">
+        <h1 className="text-3xl text-center p-8 mb-4">Mes projets</h1>
 
         <div className="flex flex-col items-center md:flex-wrap md:flex-row md:justify-center">
           {/* RIOT API */}

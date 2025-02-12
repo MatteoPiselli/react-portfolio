@@ -25,10 +25,8 @@ const Certifications = () => {
 
   return (
     <ImageLoader>
-      <div className="relative bg-gray-900 text-white">
-        <h1 ref={certificationsRef} className="text-3xl text-center p-8 mb-12">
-          Certifications
-        </h1>
+      <div ref={certificationsRef} className="relative bg-gray-900 text-white">
+        <h1 className="text-3xl text-center p-8 mb-12">Certifications</h1>
 
         <div className="ml-[10%] mr-[10%] flex items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
           <div className="relative transform transition-transform duration-300 hover:scale-105">

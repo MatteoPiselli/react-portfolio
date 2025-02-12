@@ -21,12 +21,10 @@ const AboutMe = () => {
 
   return (
     <ImageLoader>
-      <div className="relative bg-gray-900">
+      <div ref={aboutMeRef} className="relative bg-gray-900">
         <div className="md:ml-[25%] md:mr-[25%] text-white text-center p-8">
           <div className="flex space-y-2 items-center justify-center mb-4">
-            <h1 ref={aboutMeRef} className="text-3xl mr-2">
-              À propos de moi
-            </h1>
+            <h1 className="text-3xl mr-2">À propos de moi</h1>
             <img src={aboutMe} alt="à propos" className="w-12 ml-2 invert" />
           </div>
           Actuellement étudiant de 21 ans en développement web, je détiens un
