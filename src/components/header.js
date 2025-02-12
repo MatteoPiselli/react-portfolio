@@ -60,23 +60,20 @@ const ImageWithText = () => {
 
         <h3 className="text-white md:text-3xl font-bold">{text}</h3>
 
-        <a
-          href="/react-portfolio/cv.pdf"
-          download
-          className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded-xl absolute bottom-32 md:bottom-[5%] md:right-4"
-        >
-          Télécharger mon CV
-        </a>
-
-        <p className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded-xl absolute bottom-32 md:bottom-[5%] md:right-4">
-          <Link
-            to="/contact"
-            onClick={handleContactClick}
-            className="text-gray-800 hover:text-sky-600 transform transition-transform duration-300 hover:scale-105"
+        <div className="flex absolute bottom-32 md:bottom-[5%] md:right-4 space-x-2">
+          <div className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded-xl">
+            <Link to="/contact" onClick={handleContactClick}>
+              Contact
+            </Link>
+          </div>
+          <a
+            href="/react-portfolio/cv.pdf"
+            download
+            className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded-xl"
           >
-            Contact
-          </Link>
-        </p>
+            Télécharger mon CV
+          </a>
+        </div>
       </div>
     </div>
   );
