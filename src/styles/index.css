@@ -8,6 +8,4 @@
     overflow: hidden;
     height: 100vh;
     /* Empêche le défilement tant que les images ne sont pas chargées */
-    position: fixed;
-    /* Garde la page en place */
 }
