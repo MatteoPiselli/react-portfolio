@@ -4,46 +4,48 @@ const ImageLoader = ({ children }) => {
   const [imagesLoaded, setImagesLoaded] = useState(false);
 
   useEffect(() => {
-    const images = document.querySelectorAll("img");
-    let loadedImages = 0;
+    const checkImages = () => {
+      const images = document.querySelectorAll("img");
+      let loadedImages = 0;
 
-    // Fonction pour vérifier si toutes les images sont chargées
-    const checkImagesLoaded = () => {
+      if (images.length === 0) {
+        setImagesLoaded(true);
+        return;
+      }
+
+      images.forEach((image) => {
+        if (image.complete) {
+          loadedImages++;
+        } else {
+          image.addEventListener("load", () => {
+            loadedImages++;
+            if (loadedImages === images.length) {
+              setImagesLoaded(true);
+            }
+          });
+        }
+      });
+
       if (loadedImages === images.length) {
         setImagesLoaded(true);
       }
     };
 
-    // Cas où il n'y a pas d'images
-    if (images.length === 0) {
-      setImagesLoaded(true);
-      return;
-    }
-
-    images.forEach((image) => {
-      // Si l'image est déjà chargée, on incrémente le compteur
-      if (image.complete) {
-        loadedImages++;
-        checkImagesLoaded(); // Vérifie si toutes les images sont chargées
-      } else {
-        // Sinon, on ajoute un eventListener pour chaque image
-        image.addEventListener("load", () => {
-          loadedImages++;
-          checkImagesLoaded(); // Vérifie si toutes les images sont chargées
-        });
-
-        // Gérer les erreurs de chargement d'image
-        image.addEventListener("error", () => {
-          loadedImages++;
-          checkImagesLoaded(); // Vérifie si toutes les images sont chargées
-        });
-      }
+    // Observer les mutations du DOM pour détecter les nouvelles images chargées
+    const observer = new MutationObserver(() => {
+      setImagesLoaded(false);
+      checkImages();
     });
 
-    checkImagesLoaded(); // Vérifie immédiatement si toutes les images sont dans le cache
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    // Vérifier les images existantes au premier chargement
+    checkImages();
+
+    return () => observer.disconnect();
   }, []);
 
-  return <div className={imagesLoaded ? "" : "no-scroll"}>{children}</div>;
+  return <div className={!imagesLoaded ? "no-scroll" : ""}>{children}</div>;
 };
 
 export default ImageLoader;
