@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 const Contact = () => {
   const contactRef = useRef(null);
@@ -16,9 +17,10 @@ const Contact = () => {
   return (
     <div
       ref={contactRef}
-      className="min-h-screen bg-gray-100 flex items-center justify-center"
+      className="relative min-h-screen bg-gray-900 flex items-center justify-center"
     >
       <ContactForm />
+      <ScrollToTopButton />
     </div>
   );
 };
