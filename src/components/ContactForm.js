@@ -18,7 +18,7 @@ const ContactForm = () => {
       )
       .then(
         () => {
-          alert("Email envoyé avec succès !");
+          alert("Votre message a bien été envoyé !");
           form.current.reset(); // Réinitialiser le formulaire après envoi
         },
         (error) => {
@@ -31,7 +31,7 @@ const ContactForm = () => {
     <form
       ref={form} // Associer le formulaire à useRef()
       onSubmit={sendEmail}
-      className="w-1/3 mx-auto p-4 bg-white rounded shadow-md"
+      className="w-2/3 md:w-1/3 p-4 bg-white rounded shadow-md"
     >
       <h2 className="text-2xl font-bold mb-4 text-center">Contactez-moi</h2>
 

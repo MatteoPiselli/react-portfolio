@@ -15,11 +15,13 @@ const Contact = () => {
     }
   }, [location]);
   return (
-    <div
-      ref={contactRef}
-      className="relative min-h-screen bg-gray-900 flex items-center justify-center"
-    >
-      <ContactForm />
+    <div className="relative">
+      <div
+        ref={contactRef}
+        className="h-screen bg-gray-900 flex items-center justify-center"
+      >
+        <ContactForm />
+      </div>
       <ScrollToTopButton />
     </div>
   );
