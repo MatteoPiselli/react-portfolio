@@ -9,6 +9,7 @@ import openclassroom from "../assets/images/certifications/openclassroom.webp";
 import pix from "../assets/images/certifications/pix.webp";
 import certifCisco from "../assets/images/certifications/cisco.pdf";
 import certifPix from "../assets/images/certifications/pix.pdf";
+import CodeCademy from "../assets/images/certifications/codecademy.png";
 
 const Certifications = () => {
   const certificationsRef = useRef(null);
@@ -27,8 +28,49 @@ const Certifications = () => {
     <ImageLoader>
       <div ref={certificationsRef} className="relative bg-gray-900 text-white">
         <h1 className="text-3xl text-center p-8 mb-12">Certifications</h1>
-
         <div className="ml-[10%] mr-[10%] flex items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
+          <div className="relative transform transition-transform duration-300 hover:scale-105">
+            <img
+              src={CodeCademy}
+              alt="CodeCademy"
+              className="w-full h-auto rounded-lg"
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+              <div className="p-4 text-center">
+                <h2 className="text-lg font-bold mb-2">CodeCademy</h2>
+                <p className="text-sm">Cours "Learn JavaScript".</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="relative transform transition-transform duration-300 hover:scale-105">
+            <img
+              src={CodeCademy}
+              alt="CodeCademy"
+              className="w-full h-auto rounded-lg"
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+              <div className="p-4 text-center">
+                <h2 className="text-lg font-bold mb-2">CodeCademy</h2>
+                <p className="text-sm">Cours "Learn HTML".</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="relative transform transition-transform duration-300 hover:scale-105">
+            <img
+              src={CodeCademy}
+              alt="CodeCademy"
+              className="w-full h-auto rounded-lg"
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+              <div className="p-4 text-center">
+                <h2 className="text-lg font-bold mb-2">CodeCademy</h2>
+                <p className="text-sm">Cours "Learn CSS".</p>
+              </div>
+            </div>
+          </div>
+
           <div className="relative transform transition-transform duration-300 hover:scale-105">
             <img src={anssi} alt="anssi" className="w-full h-auto rounded-lg" />
             <div className="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
