@@ -28,6 +28,18 @@ const Formation = () => {
 
         <div className="flex flex-wrap border]">
           <div className="w-full md:w-1/2 px-12 mb-4">
+            <div className="text-sm mt-8">mars 2025 - mai 2025</div>
+            <h2 className="font-semibold text-lg text-slate-600 mt-2">
+              Développeur Fullstack Web & Mobile JS
+            </h2>
+            <h3 className="font-medium opacity-75">La Capsule</h3>
+            <p className="mt-2 mb-12">
+              Formation coding bootcamp de 10 semaines afin d'obtenir un titre
+              RNCP 6 (bac+3/4).
+            </p>
+          </div>
+
+          <div className="w-full md:w-1/2 px-12 mb-4">
             <div className="text-sm mt-8">2023-2024</div>
             <h2 className="font-semibold text-lg text-slate-600 mt-2">
               Bachelor Développeur Web (Non Abouti)
