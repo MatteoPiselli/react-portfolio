@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.a5aa6e46.css",
-    "main.js": "/react-portfolio/static/js/main.30d06d93.js",
+    "main.css": "/react-portfolio/static/css/main.2c9c880c.css",
+    "main.js": "/react-portfolio/static/js/main.e9eee669.js",
     "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.033d672fb548284eb98e.png",
     "static/media/airbnb.png": "/react-portfolio/static/media/airbnb.c928367d8036894f6f02.png",
     "static/media/memory-anime.png": "/react-portfolio/static/media/memory-anime.b5aaa4722f2c642d882c.png",
@@ -17,6 +17,7 @@
     "static/media/pix.pdf": "/react-portfolio/static/media/pix.02a9c8105312c2ca1490.pdf",
     "static/media/fa-regular-400.ttf": "/react-portfolio/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
     "static/media/Anssi.webp": "/react-portfolio/static/media/Anssi.a64ef7a4287c16696e09.webp",
+    "static/media/codecademy.png": "/react-portfolio/static/media/codecademy.7482977aaa276c12b197.png",
     "static/media/fa-regular-400.woff2": "/react-portfolio/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
     "static/media/doigt-leve.png": "/react-portfolio/static/media/doigt-leve.ea86bf8aba9c079fd954.png",
     "static/media/cisco.pdf": "/react-portfolio/static/media/cisco.22bee9edfb21157dac4a.pdf",
@@ -31,17 +32,13 @@
     "static/media/coding.png": "/react-portfolio/static/media/coding.b1ad51fcd619dc621d1b.png",
     "static/media/cisco.webp": "/react-portfolio/static/media/cisco.ef922d3978b1e5e5e6f0.webp",
     "static/media/fa-v4compatibility.woff2": "/react-portfolio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
-    "static/media/php.svg": "/react-portfolio/static/media/php.bf6243b5212d81aaf1245fc2826551fd.svg",
     "static/media/openclassroom.webp": "/react-portfolio/static/media/openclassroom.855a52398c694f4b2f99.webp",
     "static/media/vscode.svg": "/react-portfolio/static/media/vscode.ae90970b7990088d824d8e3a11d9024f.svg",
     "static/media/mySQL.svg": "/react-portfolio/static/media/mySQL.ebf5eeaef302d497971c5bbd898566e4.svg",
     "static/media/reactjs.svg": "/react-portfolio/static/media/reactjs.4e0c97009b885bfa75c5412262a46f5f.svg",
-    "static/media/python.svg": "/react-portfolio/static/media/python.849d0b2b5f1ec20f077dd267498bd536.svg",
     "static/media/github.svg": "/react-portfolio/static/media/github.3c903c66b2c5334c8c0b80567c4ea422.svg",
     "static/media/bash.svg": "/react-portfolio/static/media/bash.e22f475189b9c606a3cbac0a243a840d.svg",
-    "static/media/java.svg": "/react-portfolio/static/media/java.a751bad6c81431ab4dd6fa6632a65540.svg",
     "static/media/Node.js.svg": "/react-portfolio/static/media/Node.js.10c9e2aa0ca7edf36fceae25fec038a1.svg",
-    "static/media/uml.svg": "/react-portfolio/static/media/uml.3f4c89d1e680b4a86ae9d235b8cebec9.svg",
     "static/media/ubuntu.svg": "/react-portfolio/static/media/ubuntu.19598217529d2acd420a9cd6fe4c8b22.svg",
     "static/media/js.svg": "/react-portfolio/static/media/js.4c1b5332c1b1057928f6f06cf972c91c.svg",
     "static/media/css.svg": "/react-portfolio/static/media/css.39769a8bd378bf410d6b381a8d88fa35.svg",
@@ -50,11 +47,11 @@
     "static/media/html.svg": "/react-portfolio/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
     "index.html": "/react-portfolio/index.html",
     "static/media/windows.svg": "/react-portfolio/static/media/windows.5cc84ba7ba7b6b804fd1cd25a98a1072.svg",
-    "main.a5aa6e46.css.map": "/react-portfolio/static/css/main.a5aa6e46.css.map",
-    "main.30d06d93.js.map": "/react-portfolio/static/js/main.30d06d93.js.map"
+    "main.2c9c880c.css.map": "/react-portfolio/static/css/main.2c9c880c.css.map",
+    "main.e9eee669.js.map": "/react-portfolio/static/js/main.e9eee669.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5aa6e46.css",
-    "static/js/main.30d06d93.js"
+    "static/css/main.2c9c880c.css",
+    "static/js/main.e9eee669.js"
   ]
 }
