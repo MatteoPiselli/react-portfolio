@@ -27,11 +27,33 @@ const AboutMe = () => {
             <h1 className="text-3xl mr-2">À propos de moi</h1>
             <img src={aboutMe} alt="à propos" className="w-12 ml-2 invert" />
           </div>
-          Actuellement étudiant de 21 ans en développement web, je détiens un
+          <span>Actuellement en formation Coding Bootcamp à</span>
+          <a
+            href="https://www.lacapsule.academy/formation-developpeur-web/full-time"
+            alt="la-capsule-formation"
+            className="underline font-bold italic hover:opacity-75 hover:scale-110 inline-block pl-2 pr-2"
+            target="_blank"
+            rel="noreferrer"
+          >
+            La Capsule
+          </a>
+          <span>
+            en tant que Développeur Fullstack afin d'obtenir un Titre RNCP 6
+            (Bac+3/4) - Concepteur Développeur d'Applications Web et Mobile.
+            <a
+              href="https://www.linkedin.com/in/matteo-piselli-354a27231/"
+              className="underline font-bold hover:opacity-75 hover:scale-110 inline-block"
+            >
+              (voir mon Linkedin 😉)
+            </a>
+          </span>
+          . <br />
+          <br />
+          Je détiens un
           <a
             href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers"
             target="_blank"
-            className="font-bold underline italic hover:not-italic inline-block"
+            className="underline italic hover:not-italic inline-block"
             rel="noreferrer"
           >
             BTS services informatiques aux organisation option B solutions
@@ -45,8 +67,8 @@ const AboutMe = () => {
               alt="doigt vers le haut"
               className="w-8 inline-block"
             />
-            Vous pouvez cliquez sur ce lien de l'Onisep pour en savoir plus sur
-            le BTS SIO.
+            (Cliquez sur ce lien de l'Onisep pour en savoir plus sur le BTS
+            SIO.)
             <img
               src={doigt}
               alt="doigt vers le haut"
@@ -54,11 +76,7 @@ const AboutMe = () => {
             />
           </div>
           <br />
-          <p>
-            Je suis actuellement en auto-formation via des projets et des cours
-            sur internet, visant à me familiariser aux différents langages et
-            frameworks qui pourrait m'aider dans la recherche d'un emploi.
-          </p>
+          <p></p>
         </div>
 
         <div className="relative m-4 md:mt-8 md:ml-[25%] md:mr-[25%] rounded-3xl overflow-hidden">
