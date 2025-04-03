@@ -69,10 +69,10 @@ const DropdownMenu = () => {
           >
             <p className="font-bold text-xl md:text-3xl">Matteo PISELLI</p>
             <p className="italic text-md md:text-lg">
-              Etudiant Développeur Web
+              Etudiant Développeur Full Stack
             </p>
             <div className="h-20 md:h-8" />
-            <ul className="flex flex-col items-center justify-center md:items-start space-y-4">
+            <ul className="relative flex flex-col items-center justify-center md:items-start space-y-4">
               <li>
                 <div className="flex space-x-4">
                   <img src={Home} alt="accueil" className="w-[25px] h-[25px]" />
@@ -220,7 +220,7 @@ const DropdownMenu = () => {
                 </div>
               </li>
             </ul>
-            <div className="flex flex-col items-center md:items-start justify-center space-y-4 mt-28">
+            <div className="flex flex-col items-center md:items-start justify-center space-y-4 md:mr-4 mt-28 md:absolute md:bottom-4">
               <p className="w-full text-center">CONTACT</p>
               <div className="flex space-x-2">
                 <img
@@ -228,7 +228,7 @@ const DropdownMenu = () => {
                   alt="téléphone"
                   className="w-[25px] h-[25px]"
                 />
-                <span>06 48 35 73 19</span>
+                <span>+33 6 48 35 73 19</span>
               </div>
 
               <div className="flex space-x-2">
