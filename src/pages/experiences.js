@@ -19,13 +19,16 @@ const Experiences = () => {
 
   return (
     <ImageLoader>
-      <div ref={experiencesRef} className="relative bg-gray-900 text-white">
+      <div ref={experiencesRef} className="relative bg-gray-900 text-white min-h-screen">
         <h1 className="text-center text-3xl p-8 mb-12">
           Expériences professionnelles
         </h1>
 
-        <div className="flex flex-wrap">
-          <div className="w-full md:w-1/2 px-12 mb-12">
+        {/*<div className="flex flex-wrap">*/}
+        <h2 className="text-center text-3xl p-8 mb-12">
+          Coming soon ...
+        </h2>
+          {/*<div className="w-full md:w-1/2 px-12 mb-12">
             <span className="text-sm">Décembre 2024</span>
             <h3 className="font-semibold text-lg text-slate-600 mt-2">
               Grand Frais (La Queue-en-Brie - 94510)
@@ -192,12 +195,12 @@ const Experiences = () => {
               <li>Entretien du site web de l’entreprise.</li>
             </ul>
           </div>
-        </div>
+      */}</div>
         <br />
         <br />
         <br />
         <ScrollToTopButton />
-      </div>
+      {/*</div>*/}
     </ImageLoader>
   );
 };
