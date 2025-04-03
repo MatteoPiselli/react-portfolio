@@ -53,7 +53,7 @@ const AboutMe = () => {
           <a
             href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers"
             target="_blank"
-            className="underline italic hover:not-italic inline-block"
+            className="underline italic hover:not-italic inline-block pl-2 pr-2"
             rel="noreferrer"
           >
             BTS services informatiques aux organisation option B solutions
@@ -83,9 +83,9 @@ const AboutMe = () => {
           <img src={bts_sio} alt="BTS SIO" className="w-full h-auto" />
 
           {/* Conteneur pour le texte superposé */}
-          <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white">
+          <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-60 text-white">
             <p className="text-center text-2xl font-bold">BTS SIO</p>
-            <p className="mt-2 mx-[10%] font-bold text-xs md:text-lg text-justify">
+            <p className="mt-2 mx-[10%] font-bold text-xs md:text-lg text-justify" style={{ WebkitTextStroke: "0.2px black" }}>
               Le Brevet de Technicien Supérieur Services informatique aux
               Organisations (SIO) s’adresse à ceux qui souhaitent se former en
               deux ans aux métiers d’administrateur réseau (SISR) ou de
