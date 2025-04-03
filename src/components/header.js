@@ -63,15 +63,14 @@ const ImageWithText = () => {
         <div className="flex absolute bottom-32 md:bottom-[5%] md:right-4 space-x-2">
           <div className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded-xl">
             <Link to="/contact" onClick={handleContactClick}>
-              Contact
+              Me contacter
             </Link>
           </div>
           <a
             href="/react-portfolio/cv.pdf"
-            download
             className="bg-gray-600 hover:bg-sky-400 text-white font-bold py-2 px-4 rounded-xl"
           >
-            Télécharger mon CV
+            Mon CV
           </a>
         </div>
       </div>
