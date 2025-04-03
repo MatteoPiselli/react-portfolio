@@ -5,9 +5,9 @@ const Footer = () => {
           {/* Informations de contact */}
           <div className="mb-4 md:mb-0">
             <h2 className="text-xl font-semibold">Matteo PISELLI</h2>
-            <p>Développeur Web</p>
+            <p>Développeur Full Stack Web & Mobile</p>
             <p>Email: <a href="mailto:pro.matteo.piselli@gmail.com" className="text-blue-400">pro.matteo.piselli@gmail.com</a></p>
-            <p>Téléphone: 06 48 35 73 19</p>
+            <p>Téléphone: +33 6 48 35 73 19</p>
           </div>
   
           {/* Liens de réseaux sociaux */}
