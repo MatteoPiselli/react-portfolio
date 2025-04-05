@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.a6837d2d.css",
-    "main.js": "/react-portfolio/static/js/main.77a8bf61.js",
+    "main.css": "/react-portfolio/static/css/main.14807c1c.css",
+    "main.js": "/react-portfolio/static/js/main.b489cfc1.js",
     "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.033d672fb548284eb98e.png",
     "static/media/airbnb.png": "/react-portfolio/static/media/airbnb.c928367d8036894f6f02.png",
     "static/media/memory-anime.png": "/react-portfolio/static/media/memory-anime.b5aaa4722f2c642d882c.png",
@@ -13,11 +13,15 @@
     "static/media/fa-brands-400.ttf": "/react-portfolio/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/qfap.png": "/react-portfolio/static/media/qfap.d90b95c96cc2d34fd1a3.png",
     "static/media/fa-solid-900.woff2": "/react-portfolio/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/transgourmet.png": "/react-portfolio/static/media/transgourmet.030508490a9b55200cd1.png",
     "static/media/fa-brands-400.woff2": "/react-portfolio/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/pix.pdf": "/react-portfolio/static/media/pix.02a9c8105312c2ca1490.pdf",
     "static/media/fa-regular-400.ttf": "/react-portfolio/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/Grand_Frais_logo.png": "/react-portfolio/static/media/Grand_Frais_logo.f184e9dd2b0bd77f48fe.png",
     "static/media/Anssi.webp": "/react-portfolio/static/media/Anssi.a64ef7a4287c16696e09.webp",
     "static/media/codecademy.png": "/react-portfolio/static/media/codecademy.7482977aaa276c12b197.png",
+    "static/media/Logo Adéquat.png": "/react-portfolio/static/media/Logo Adéquat.35f43655f3afb5d3e461.png",
+    "static/media/pp.png": "/react-portfolio/static/media/pp.85b65f3f3cc38d43b444.png",
     "static/media/fa-regular-400.woff2": "/react-portfolio/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
     "static/media/doigt-leve.png": "/react-portfolio/static/media/doigt-leve.ea86bf8aba9c079fd954.png",
     "static/media/cisco.pdf": "/react-portfolio/static/media/cisco.22bee9edfb21157dac4a.pdf",
@@ -47,11 +51,11 @@
     "static/media/html.svg": "/react-portfolio/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
     "index.html": "/react-portfolio/index.html",
     "static/media/windows.svg": "/react-portfolio/static/media/windows.f8aecc5b5ff8c9674926818c27aca566.svg",
-    "main.a6837d2d.css.map": "/react-portfolio/static/css/main.a6837d2d.css.map",
-    "main.77a8bf61.js.map": "/react-portfolio/static/js/main.77a8bf61.js.map"
+    "main.14807c1c.css.map": "/react-portfolio/static/css/main.14807c1c.css.map",
+    "main.b489cfc1.js.map": "/react-portfolio/static/js/main.b489cfc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6837d2d.css",
-    "static/js/main.77a8bf61.js"
+    "static/css/main.14807c1c.css",
+    "static/js/main.b489cfc1.js"
   ]
 }
